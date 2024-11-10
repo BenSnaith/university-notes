@@ -4,20 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "02ce75d8f7bf80d6",
+        "id": "f7783e72a892b43a",
         "type": "tabs",
         "children": [
           {
-            "id": "acc3e980051b2a96",
+            "id": "e57f594c825da926",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
+                "file": "Year 1/OOP/OOP - 2- Making decisions in code - 02-10-23.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "git-pull-request",
-              "title": "Diff View (workspace.json)"
+              "icon": "lucide-file",
+              "title": "OOP - 2- Making decisions in code - 02-10-23"
             }
           }
         ]
@@ -72,7 +73,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -184,19 +186,57 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "random-note:Open random note": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-importer:Open Importer": false
     }
   },
-  "active": "350b63eba4eff633",
+  "active": "e57f594c825da926",
   "lastOpenFiles": [
-    "DSA/Unit 8 - Hash Tables.md",
-    "DSA/Unit 9 - Sets.md",
-    "DSA/Unit 10 - Maps.md",
-    "_images/Pasted image 20241108171831.png",
-    "_images/Pasted image 20241108165500.png",
-    "_images/Pasted image 20241108163725.png",
-    "_images",
-    "Welcome.md",
-    "DSA"
+    "Year 1/MCP/Math - 1 - Binary and Hex - 27-09-23.md",
+    "Year 1/CS/Comp Systems - Lecture 7 - Operating Systems (1) - 18-11-23.md",
+    "Year 1/OOP/OOP - 9- Searching, Sorting and Design - 27-11-23.md",
+    "Year 1/IAD/Week 7 - PHP; Basics.md",
+    "Year 1/IAD/Week 9 - PHP; MVC & Laravel.md",
+    "Year 1/IAD/Week 1 - HTML.md",
+    "Year 1/OOP/OOP - 19- Java FX.md",
+    "Year 1/OOP/OOP - 8- HashMaps and interacting with the User - 20-11-23.md",
+    "Year 1/MCP/Math - 3 - Predicate Logic.md",
+    "Year 1/CS/Comp Systems - Lecture 9 - Networking (2) - 8-11-23.md",
+    "Year 1/MCP/Math - 8 - Languages and Automata - 22-11-23.md",
+    "Year 1/CS/Comp Systems - Lecture 8 - Operating Systems (2) - 25-11-23.md",
+    "Misc/Further Reading/But How Do It Know.md",
+    "Misc/Further Reading/Computer Organization and Design, The Hardware and Software Interface; 4th Edition.md",
+    "Misc/Branch Education/SSDs.md",
+    "Misc/Branch Education/Memory.md",
+    "Misc/Branch Education/Bluetooth.md",
+    "Misc/Harvard CS50/Lecture 0 - Scratch.md",
+    "Misc/Branch Education/Branch Education.md",
+    "Misc/Harvard CS50/Harvard CS50.md",
+    "Misc/Harvard CS50/Lecture 1 - C.md",
+    "Misc/Personal Notes/Boolean Algebra.md",
+    "Misc/Personal Notes/Computer Networking.md",
+    "Misc/Personal Notes/CPU Architecture.md",
+    "Misc/Personal Notes/Dict.md",
+    "Misc/Personal Notes/IEEE 754.md",
+    "SWE",
+    "IAI",
+    "Misc",
+    "Notion/to del",
+    "Year 1/CS",
+    "Year 1/IAD",
+    "Year 1/MCP",
+    "Year 1/OOP",
+    "Year 1",
+    "_images/image.png",
+    "_images/Untitled 9 21.png",
+    "_images/Untitled 8 22.png",
+    "_images/Untitled 7 24.png",
+    "_images/Untitled 6 26.png",
+    "_images/Untitled 5 32.png",
+    "_images/Untitled 4 32.png",
+    "_images/Untitled 3 35.png",
+    "_images/Untitled 2 37.png",
+    "_images/Untitled 1 39.png",
+    "Notion/to del/ 2/Comp Systems/Linux Labs/Linux Lab Practical/Linux Lab 4 - I-O - 13-10-23"
   ]
 }

@@ -1,0 +1,1 @@
+A microprocessor is a computer processor where the data processing logic and control is included on a single integrated circuit (IC)
