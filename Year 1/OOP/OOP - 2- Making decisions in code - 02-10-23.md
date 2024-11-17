@@ -33,15 +33,15 @@ z <= 33;
 x > width;
 ```
 
-|Operator|Meaning|
-|---|---|
-|>|Greater than|
-|<|Less than|
-|>=|Greater than or equal to|
-|<=|Less than or equal to|
-|==|Equal to|
-|!=|Not equal to|
-|!|Not|
+| Operator | Meaning                  |
+| -------- | ------------------------ |
+| >        | Greater than             |
+| <        | Less than                |
+| >=       | Greater than or equal to |
+| <=       | Less than or equal to    |
+| ==       | Equal to                 |
+| !=       | Not equal to             |
+| !        | Not                      |
 
 ```Java
 // Example of an if statement.
@@ -68,10 +68,10 @@ void draw() {
 // }
 ```
 
-|   |   |
-|---|---|
-|&&|both must be true|
-|\||either must be true|
+|     |                     |
+| --- | ------------------- |
+| &&  | both must be true   |
+| \|  | either must be true |
 
 ## Implementing a button.
 
