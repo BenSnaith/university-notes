@@ -1,4 +1,10 @@
 {
-  "accentColor": "#60d241",
-  "theme": "obsidian"
+  "accentColor": "",
+  "theme": "obsidian",
+  "cssTheme": "Obsidianite",
+  "textFontFamily": "JetBrainsMono Nerd Font Mono",
+  "interfaceFontFamily": "JetBrainsMono Nerd Font Mono",
+  "monospaceFontFamily": "JetBrainsMono Nerd Font Mono",
+  "baseFontSizeAction": true,
+  "nativeMenus": false
 }

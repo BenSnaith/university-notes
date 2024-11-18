@@ -4,20 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "da84bb3a044feab3",
+        "id": "6dc9f9075ff9d931",
         "type": "tabs",
         "children": [
           {
-            "id": "f04e81ca500d11f3",
+            "id": "8ba54e501866631c",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
-              "state": {
-                "file": ".obsidian/appearance.json",
-                "staged": false
-              },
-              "icon": "git-pull-request",
-              "title": "Diff View (appearance.json)"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -188,8 +185,19 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "f04e81ca500d11f3",
+  "active": "bec57f9a5c6cc004",
   "lastOpenFiles": [
+    "DSA/Unit 11 - Lists.md",
+    "_images/Pasted image 20241118223223.png",
+    "_images/Pasted image 20241118004011.png",
+    "_images/Pasted image 20241118002501.png",
+    "_images/Pasted image 20241117220454.png",
+    "_images/Pasted image 20241117171835.png",
+    "_images/Pasted image 20241117161858.png",
+    "_images/Pasted image 20241117161324.png",
+    "_images/Pasted image 20241117161212.png",
+    "_images/Pasted image 20241117161119.png",
+    "DSA/Unit 10 - Maps.md",
     "Year 1/OOP/OOP - 2- Making decisions in code - 02-10-23.md",
     "Year 1/MCP/Math - 1 - Binary and Hex - 27-09-23.md",
     "Year 1/CS/Comp Systems - Lecture 7 - Operating Systems (1) - 18-11-23.md",
@@ -213,9 +221,6 @@
     "Misc/Harvard CS50/Harvard CS50.md",
     "Misc/Harvard CS50/Lecture 1 - C.md",
     "Misc/Personal Notes/Boolean Algebra.md",
-    "Misc/Personal Notes/Computer Networking.md",
-    "Misc/Personal Notes/CPU Architecture.md",
-    "Misc/Personal Notes/Dict.md",
     "SWE",
     "IAI",
     "Misc",
@@ -226,15 +231,6 @@
     "Year 1/OOP",
     "Year 1",
     "_images/image.png",
-    "_images/Untitled 9 21.png",
-    "_images/Untitled 8 22.png",
-    "_images/Untitled 7 24.png",
-    "_images/Untitled 6 26.png",
-    "_images/Untitled 5 32.png",
-    "_images/Untitled 4 32.png",
-    "_images/Untitled 3 35.png",
-    "_images/Untitled 2 37.png",
-    "_images/Untitled 1 39.png",
     "Notion/to del/ 2/Comp Systems/Linux Labs/Linux Lab Practical/Linux Lab 4 - I-O - 13-10-23"
   ]
 }
