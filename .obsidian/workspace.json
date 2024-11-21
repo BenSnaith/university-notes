@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6dc9f9075ff9d931",
+        "id": "8edf77ca5b19af9a",
         "type": "tabs",
         "children": [
           {
-            "id": "8ba54e501866631c",
+            "id": "3e0087d79abc7329",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -73,7 +73,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "8c4ae4ecaa230faf",
@@ -185,9 +186,16 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "bec57f9a5c6cc004",
+  "active": "3e0087d79abc7329",
   "lastOpenFiles": [
+    "IAI/Unit 2 - Intelligent Agents.md",
+    "IAI/Unit 3 - Solving Problems by Search.md",
+    "IAI/Unit 4 - Searching II.md",
+    "IAI/Unit 5 - Machine Learning.md",
     "DSA/Unit 11 - Lists.md",
+    "DSA/Unit 10 - Maps.md",
+    "DSA/Unit 9 - Sets.md",
+    "_images/Pasted image 20241117161119.png",
     "_images/Pasted image 20241118223223.png",
     "_images/Pasted image 20241118004011.png",
     "_images/Pasted image 20241118002501.png",
@@ -196,8 +204,6 @@
     "_images/Pasted image 20241117161858.png",
     "_images/Pasted image 20241117161324.png",
     "_images/Pasted image 20241117161212.png",
-    "_images/Pasted image 20241117161119.png",
-    "DSA/Unit 10 - Maps.md",
     "Year 1/OOP/OOP - 2- Making decisions in code - 02-10-23.md",
     "Year 1/MCP/Math - 1 - Binary and Hex - 27-09-23.md",
     "Year 1/CS/Comp Systems - Lecture 7 - Operating Systems (1) - 18-11-23.md",
@@ -217,10 +223,6 @@
     "Misc/Branch Education/Memory.md",
     "Misc/Branch Education/Bluetooth.md",
     "Misc/Harvard CS50/Lecture 0 - Scratch.md",
-    "Misc/Branch Education/Branch Education.md",
-    "Misc/Harvard CS50/Harvard CS50.md",
-    "Misc/Harvard CS50/Lecture 1 - C.md",
-    "Misc/Personal Notes/Boolean Algebra.md",
     "SWE",
     "IAI",
     "Misc",
