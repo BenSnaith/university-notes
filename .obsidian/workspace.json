@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8edf77ca5b19af9a",
+        "id": "61388b949c5496a8",
         "type": "tabs",
         "children": [
           {
-            "id": "3e0087d79abc7329",
+            "id": "3ca4475573d14ee6",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -186,12 +186,17 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "3e0087d79abc7329",
+  "active": "3ca4475573d14ee6",
   "lastOpenFiles": [
-    "IAI/Unit 2 - Intelligent Agents.md",
-    "IAI/Unit 3 - Solving Problems by Search.md",
-    "IAI/Unit 4 - Searching II.md",
-    "IAI/Unit 5 - Machine Learning.md",
+    "IAI/Labs/Lab 3.md",
+    "Pasted image 20241121193256.png",
+    "IAI/Lectures/Unit 1 - Intro to AI.md",
+    "IAI/Labs",
+    "IAI/Lectures/Unit 3 - Solving Problems by Search.md",
+    "IAI/Lectures",
+    "IAI/Lectures/Unit 2 - Intelligent Agents.md",
+    "IAI/Lectures/Unit 4 - Searching II.md",
+    "IAI/Lectures/Unit 5 - Machine Learning.md",
     "DSA/Unit 11 - Lists.md",
     "DSA/Unit 10 - Maps.md",
     "DSA/Unit 9 - Sets.md",
@@ -220,9 +225,6 @@
     "Misc/Further Reading/But How Do It Know.md",
     "Misc/Further Reading/Computer Organization and Design, The Hardware and Software Interface; 4th Edition.md",
     "Misc/Branch Education/SSDs.md",
-    "Misc/Branch Education/Memory.md",
-    "Misc/Branch Education/Bluetooth.md",
-    "Misc/Harvard CS50/Lecture 0 - Scratch.md",
     "SWE",
     "IAI",
     "Misc",
@@ -230,9 +232,6 @@
     "Year 1/CS",
     "Year 1/IAD",
     "Year 1/MCP",
-    "Year 1/OOP",
-    "Year 1",
-    "_images/image.png",
-    "Notion/to del/ 2/Comp Systems/Linux Labs/Linux Lab Practical/Linux Lab 4 - I-O - 13-10-23"
+    "Year 1/OOP"
   ]
 }
