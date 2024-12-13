@@ -264,5 +264,132 @@ public:
 }
 ```
 
+To analyse _recursive_ algorithms (similar to iterative algorithms...)
 
+1. Work out the time efficiency (i.e. _order_) of the _method body_ excluding the _recursive call:_ O(1).
+2. Multiply the result by the _order_ of the _recursion_ (the number of times the method calls itself): n x O(1)
+3. Overall time complexity: O(n)
+
+### The Towers of Hanoi
+
+- The Towers of Hanoi is a puzzle made up of _three_ vertical pegs and several disks that slide onto the _pegs_.
+- The disks are of _varying_ example, initially placed on one peg with the largest disk on the bottom and increasingly smaller disks on top.
+- The goal is to move all of the disks from one peg to another following these rules.
+	- Only _one_ disk can be moved at a time.
+	- A disk cannot be placed on top of smaller disk.
+	- All disks must be on a peg (unless in transport).
+
+### The Towers of Hanoi Solution
+
+- A solution to the Towers of Hanoi puzzle involving _three_ disks is shown below:
+
+![[Pasted image 20241213114247.png]]
+
+### The Towers of Hanoi Algorithm
+
+- To move a stack of N disks from the original peg to the destination peg.
+
+	1. Move the topmost N - 1 disk from the original peg to the extra peg. _recursive step_.
+	2. Move the largest disk from the original peg to the destination peg.
+	3. Move the N - 1 disks from the extra peg to the destination peg. _recursive step_.
+
+- The _base case_ in the recursion occurs when a _'stack'_ contains only one disk.
+
+### Java Code for Tower of Hanoi
+
+```java
+private void moveTower(int numDisks, int state, int end, int temp) {
+	 if(numDisks == 1) {
+		 moveOneDisk(start, end);
+	 }
+	else {
+		moveTower(numDisks - 1, start, temp, end);
+		moveOneDisk(start, end);
+		moveTower(numDisks - 1, temp, end, start);
+	}
+}
+
+private void moveOneDisk(int start, int end) {
+	System.out.println("Move one disk from the start to the start to the end");
+}
+```
+
+`numDisks = n` defines the `size` of the problem.
+
+__Each `moveTower` call leads to _two_ more `moveTower` calls plus a move to `moveOneDisk`___
+
+### Analysing Towers of Hanoi
+
+How many `moveOneDisk(int, int)` calls are there for a 3-disk tower.
+
+What is the worst case time complexity of `solve()`
+
+__O(2^n)__
+
+### Fibonacci Numbers
+
+- The Tower of Hanoi is said to be doubly recursive as at each stage `MoveTower` calls itself _twice_.
+- The Fibonacci sequence is this sequence of integers...
+			1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144
+
+- In which each number (except the first two) is the sum of two previous numbers in the sequence.
+- A _doubly_ recursive definition of the nth Fibonacci number F(n):
+			F(0) = 1
+			F(1) = 1
+			F(N) = F(N - 1) + F(N - 2) ... 1
+
+### A Recursive Method for Fibonacci Numbers
+
+- A doubly recursive method to calculate the nth Fibonacci number.
+
+```java
+public static int fib(int n) {
+	if(n == 0 || n == 1) {
+		return 1;
+	} 
+	else {
+		return fib(n - 1) + fib(n - 2); // recursive case
+	}
+}
+```
+
+- All very elegant!
+- But unfortunately very _inefficient_
+
+e.g., To find out the 4th Fibonacci number, 9 steps are required (2^n-1 + 1 steps)
+
+### An Iterative Method for Fibonacci Numbers
+
+- An iterative solution has time complexity `O(n)` and is far superior
+
+```java
+public static int fib(int n) {
+	if(n == 1 || n == 1)
+		return 1;
+
+	int f0 = 1; int f1 = 1; int result;
+	for(int i = 2; i <= n; i++) {
+		result = f0 + f1;
+		f0 = f1;
+		f1 = result;
+	}
+	return result;
+}
+```
+
+- We should be careful about when to recursive methods.
+
+### Recursion vs. Iteration 
+
+- Every recursive solution has a corresponding _iterative_ solution.
+	- An iteration may be more suitable than a recursion, e.g., when summing 1 to N or calculating factorials.
+- Recursion has the _overhead_ of multiple methods invocations.
+
+Each recursive call sets up a new __execution environment__, with new __parameters__ and new __local variables__.
+
+...more storage space required.
+
+- For some problems, however, recursive solutions are often _simpler_ and _more elegant_ than iterative solutions.
+	- It is important to know _when_ recursion should be used.
+	
 
