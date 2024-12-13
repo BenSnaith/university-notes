@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "067267416cf97c4d",
+        "id": "b0a611db4765de1b",
         "type": "tabs",
         "children": [
           {
-            "id": "71df97c152bbdc89",
+            "id": "7ba9fcbc58c31a7f",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "_images/Pasted image 20241128195550.png"
+                "file": "DSA/Unit 14 - Searching and Sorting.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20241128195550"
+              "icon": "lucide-file",
+              "title": "Unit 14 - Searching and Sorting"
             }
           }
         ]
@@ -188,19 +190,33 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "bec57f9a5c6cc004",
+  "active": "7ba9fcbc58c31a7f",
   "lastOpenFiles": [
+    "DSA/Unit 13 - Trees.md",
+    "DSA/Unit 14 - Searching and Sorting.md",
+    "DSA/Unit 12 - Recursion.md",
+    "Pasted image 20241212230929.png",
+    "Pasted image 20241212230739.png",
+    "Pasted image 20241212221920.png",
+    "Pasted image 20241212220436.png",
+    "DSA/Unit 11 - Lists.md",
+    "SWE/Unit 9 - Object-Oriented Detailed Design.md",
+    "_images/Pasted image 20241212171236.png",
+    "_images/Pasted image 20241212171414.png",
+    "_images/Pasted image 20241212161541.png",
+    "_images/Pasted image 20241212170553.png",
+    "_images/Pasted image 20241212170143.png",
+    "_images/Pasted image 20241212165004.png",
+    "SWE/Unit 7 & 8 - Software Design and Architecure.md",
+    "SWE/Unit 6 - Software Testing.md",
+    "SWE/Unit 5 - Systems Analysis.md",
+    "LeetCode/Array/49. Group Anagrams.md",
+    "LeetCode/Array/1. Two Sum.md",
+    "LeetCode/Array/242. Valid Anagram.md",
+    "LeetCode/Array/217. Contains Duplicate.md",
+    "LeetCode/Array",
+    "LeetCode",
     "SWE/Unit 4 - Business Analysis, UML Diagrams, State machine diagrams.md",
-    "_images/Pasted image 20241128195550.png",
-    "_images/Pasted image 20241128195450.png",
-    "_images/Pasted image 20241128193605.png",
-    "_images/Pasted image 20241128193319.png",
-    "_images/Pasted image 20241128193229.png",
-    "_images/Pasted image 20241128193153.png",
-    "_images/Pasted image 20241128193013.png",
-    "_images/Pasted image 20241128192025.png",
-    "_images/Pasted image 20241128183051.png",
-    "_images/Pasted image 20241128183017.png",
     "SWE/Unit 3 - Requirements, Use Cases and Use Case Descriptions.md",
     "IAI/Labs/Lab 3.md",
     "IAI/Lectures/Unit 1 - Intro to AI.md",
@@ -210,30 +226,17 @@
     "IAI/Lectures/Unit 2 - Intelligent Agents.md",
     "IAI/Lectures/Unit 4 - Searching II.md",
     "IAI/Lectures/Unit 5 - Machine Learning.md",
-    "DSA/Unit 11 - Lists.md",
     "DSA/Unit 10 - Maps.md",
     "DSA/Unit 9 - Sets.md",
     "Year 1/OOP/OOP - 2- Making decisions in code - 02-10-23.md",
     "Year 1/MCP/Math - 1 - Binary and Hex - 27-09-23.md",
     "Year 1/CS/Comp Systems - Lecture 7 - Operating Systems (1) - 18-11-23.md",
     "Year 1/OOP/OOP - 9- Searching, Sorting and Design - 27-11-23.md",
-    "Year 1/IAD/Week 7 - PHP; Basics.md",
-    "Year 1/IAD/Week 9 - PHP; MVC & Laravel.md",
-    "Year 1/IAD/Week 1 - HTML.md",
-    "Year 1/OOP/OOP - 19- Java FX.md",
-    "Year 1/OOP/OOP - 8- HashMaps and interacting with the User - 20-11-23.md",
-    "Year 1/MCP/Math - 3 - Predicate Logic.md",
-    "Year 1/CS/Comp Systems - Lecture 9 - Networking (2) - 8-11-23.md",
-    "Year 1/MCP/Math - 8 - Languages and Automata - 22-11-23.md",
-    "Year 1/CS/Comp Systems - Lecture 8 - Operating Systems (2) - 25-11-23.md",
-    "Misc/Further Reading/But How Do It Know.md",
     "SWE",
     "IAI",
     "Misc",
     "Notion/to del",
     "Year 1/CS",
-    "Year 1/IAD",
-    "Year 1/MCP",
-    "Year 1/OOP"
+    "Year 1/IAD"
   ]
 }

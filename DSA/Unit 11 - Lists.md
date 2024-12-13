@@ -1,15 +1,10 @@
 ### Unit Objectives
 
 - Model a doubly linked list.
-
 - Learn how to implement an iterator for doubly linked lists.
-
 - Learn how indexed and ordered list ADTs and how to implement them.
-
 - Learn about when to use a list.
-
 - Describe the time complexity of list operations using the Big-O notation.
-
 - Consider some implementations of lists in the JCF.
 
 ### Self-referential Object
@@ -134,11 +129,8 @@ public class DoubleNode<T> {
 ### Doubly Linked Lists: Advantages
 
 - Each node of doubly linked list has a reference to both the next and previous nodes in the list.
-
 	- We can move easily backwards and forwards.
-
 - You can choose to traverse the linked list in reverse order.
-
 - It is also easier to support the `remove` operation of an `Iterator` over a doubly linked list.
 
 ![[Pasted image 20241117161858.png]]
@@ -146,33 +138,23 @@ public class DoubleNode<T> {
 ### Recap on issue with class `LinkedIterator`
 
 - In Unit 5, `LinkedSet` utilises a *linear singly linked structure* to model its contents
-
 - Class `LinkedIterator` in Unit 5 (which keeps track of the current node only) has no means to support method `remove`, even if class `LinkedSet` does not keep the `int` field size.
-
 - Why?
 
 ### Doubly Linked List Disadvantages
 
 - The downside of doubly-linked lists is that there are increased storage overheads.
-
 	- Each node now must contain three reference fields, `element`, `next`, `prev`
-
 - More *'book keeping'* is now required to manage the links in doubly-linked list operations, e.g.
-
 	- Insertion and removal of nodes in the middle of a linked list both require modifications to the previous node.
 
 ### Modelling Doubly Linked Lists
 
 To model a doubly linked list using a linear linked structure, we define:
-
 - `DoubleNode`: to model a node within a doubly linked list.
-
 - An *abstract* class `DoubleList`: to model a doubly linked list.
-
 	- This will be used as the basis on which to build variously doubly linked linear structures such as an ordered set, an ordered list and an indexed list.
-
 - An inner class `DoubleInterator`: to provide an iterator for a doubly linked list.
-
 	- Unlike `LinkedIterator` in Unit 5, `DoubleIterator` will support the `remove` operation.
 
 ### Abstract Class `DoubleList`
@@ -182,21 +164,13 @@ To model a doubly linked list using a linear linked structure, we define:
 ### Abstract Class `DoubleList`
 
 - Class `DoubleList` is `abstract`
-
 	- Instances of `DoubleList` cannot be created.
-
 - Unusually, all the methods of this abstract class are concrete.
-
 	- This is to ease the burden of implementations of extension of this class.
-
 - Most of the methods of this class are `protected`
-
 	- They are not intended to be used by general client code, but rather are *utility methods* to be used by implementer of various collection ADTs
-
 - We will use this class to implement some useful collection ADTs such as ordered lists and indexed lists.
-
 - The simpler methods such as `isEmpty` and `size` are `public` and may be called by client code directly.
-
 - Three `protected` data fields: `count`, `front` & `rear`.
 
 ### `DoubleList.java`
@@ -442,11 +416,8 @@ private class
 ### Abstract Data Types: Lists
 
 - Lists are linear collections
-
 	- Lists are more flexible than stacks or queues.
-
 - Elements can be added or removed anywhere within a list.
-
 - Two types of list collections:
 	- ordered (or sorted) list
 	- indexed lists
@@ -454,14 +425,11 @@ private class
 ### Ordered & Indexed Lists
 
 - The elements in an ordered or sorted list are sorted by some inherent characteristic of the elements.
-
 - For example:
 	- names in alphabetical order.
 	- scores in ascending order.
 	- events in chronological order.
-
 - In an indexed list, elements are referenced by their numerical position or index in the list.
-
 	- There is often no inherent order relationship among then elements.
 
 ### A conceptual view of an Ordered List
@@ -511,9 +479,7 @@ public interface ListADT<T> extends Iterable<T> {
 ### The `OrderedListADT` Interface
 
 - `OrderedListADT` has one new method `add(T element)`
-
 - To belong to an ordered list, elements must have a natural order.
-
 - If objects in a class are expected to have an inherent order, the class must implement the standard Java interface.
 
 	`java.lang.Comparable<T>`
@@ -612,25 +578,17 @@ public T removeLast() {
 ### Using an Ordered List
 
 - Within an ordered list, elements are ordered by their inherent order.
-
 	- The knowledge of ordering is defined within the element itself.
-
 - Some objects have natural order, e.g.
-
 	- `String`, `Integer`, `Double`, `Date`.
-	
 - For objects that do not have a natural order, e.g. `Employee`, `Car` and `Ticket` objects, we can introduce an order by explicitly defining it in the class definition.
 
 Employee may be ordered by: name, id, seniority, position, etc.
 
 - Suppose that we want to keep track of the name of the employees (of class `Employee`) of a company and their years of service.
-
 - The `Employee` objects are kept in a list ordered by their years of service. If the years of service are equal, employees are ordered alphabetically.
-
 - Thus, class `Employee` will need to implement interface `Comparable<T>` and provide an implementation of `compareTo`.
-
 - To implement this method, we can simply compare the instance variable `years` in the two `Employee` objects and then compare the `name` fields if the `years` fields are the same.
-
 - When an `Employee` object is to be added to a list, `compareTo` will be used to determine the position of this object within the list.
 
 ### Class `Employee`
@@ -712,7 +670,6 @@ public class LinkedIndexedList<T> extends DoubleList<T> implements IndexedListAD
 ### `LinkedIndexedList`: `get` and `set`
 
 - `get` returns the element in node returned by `findNode`.
-
 - `set` locates the `ith` node using `findNode`, changes the element stored in the node and then returns the old element.
 
 ```java
@@ -744,7 +701,6 @@ public class LinkedIndexedList<T> extends DoubleList<T> implements IndexedListAD
 ### `LinkedIndexedList`: `add`
 
 - `add` checks the index for the special cases of addition at he front of the end of the list and calls `addFront` or `addLast` as appropriate.
-
 - It then uses `findNode` to located the `ith` and uses `addBefore` to add a new node before the current `ith` node.
 
 ```java
@@ -785,7 +741,6 @@ public class LinkedIndexedList<T> extends DoubleList<T> implements IndexedListAD
 ### Implementing Lists with Arrays
 
 - An array implementation of a list could follow strategies similar to those used for a queue.
-
 - We could fix one end of the list at index 0 and shift as needed when an element is added or removed
 
 ![[Pasted image 20241118004011.png]]
@@ -795,13 +750,9 @@ public class LinkedIndexedList<T> extends DoubleList<T> implements IndexedListAD
 ### An Array Implementation of an Indexed List
 
 - Due to the indexed nature, array is a natural choice for implementing an indexed list.
-
 - Elements are kept contiguously at one end of the array.
-
 - An integer variable (size) stores the number of elements in the list, and is also the index of the first empty cell in the array.
-
 - In order to allow the list to grow indefinitely, we will need to perform "expand capacity".
-
 - An integer variable (capacity) holds the current size of the underlying array used to store the elements of the list.
 
 ### `ArrayList`: an array implementation of an indexed list
@@ -847,7 +798,6 @@ public class ArrayList<T> implements IndexedListADT<T> {
 ### `ArrayList`: `extendArray`
 
 - When the array is extended, the elements of the old array are copied to the new array leaving a gap at position gap.
-
 	- The new element can be added without any further element shifting
 
 ```java
@@ -965,13 +915,9 @@ O(n)
 ### `ArrayList`: `iterator`
 
 - The iterator is implemented using an inner class and now supports the `remove` operation.
-
 - This new version of `ArrayIterator`:
-
 	- May access the private fields of `ArrayList`.
-
 	- Does not require any parameters.
-
 	- Supports the `remove` operation.
 
 ```java
@@ -1037,41 +983,25 @@ private class ArrayIterator implements Iterator<T> {
 ### An Array Implementation of an Ordered List
 
 - It is convenient to base the implementation of `OrderedArrayList` on that of `ArrayList`.
-
 	- `ArrayList` is practically an indexed list.
-
 	- If we simply extend the class `ArrayList`; we will inherit too may methods
-
 	- Inheriting method such as add element at index and set element at index in class `ArrayList` would be very likely to violate the inherent ordering of the ordered list.
-
 - We could define an abstract class implementing the common operations of indexed and ordered lists and then extend this.
-
 	- This will lead to more complex class hierarchy.
-
 - A better way would be to reuse an existing class, but restrict the available operations that can be performed.
-
 - We hide an instance of the existing class as a private field of the new class.
-
 - Provide `wrapper` methods to call only those methods of the hidden class which is safe for clients to use.
-
 	- This is the same approach used in class `PureStack`
 
 ### Analysis of `IndexedList` Operations
 
 - `get`
-
 - `set`
-
 - `removeFirst`
-
 - `removeLast`
-
 - `addFirst`
-
 - `addLast`
-
 - `remove`
-
 - `add`
 
 ### Lists in JCF
