@@ -318,7 +318,165 @@ public void levelOrderPrint() {
 ```java
 public T find(T target) {
 	BinaryTreeNode<T> tmp = find(target, root);
+	if(tmp == null) return null;
+	else return tmp.element;
+}
+
+protected BinaryTreeNode<T> find(T target, BinaryTreeNode<T> node) {
+	if(node == null)
+		return null;
+	else if(target.equals(node.element)) 
+		return node;
+
+	BinaryTreeNode<T> tmp = find(target, node.left);
+	if(tmp == null)
+		tmp = find(target, node.right);
+	return tmp;
 }
 ```
 
+### Tree Iterators
 
+- The simplest way to implement an __iterator__ is to place the elements into a _temporary list_ and iterate over this list.
+- The example below uses _in-order_.
+
+	_We may use any method of traversal as we fill the list._
+
+- For simplicity, this iterator will not support `remove`.
+
+```java
+public Iterator<T> iterator() {
+	ArrayList<T> list = new ArrayList<>();
+	inorder(root, list);
+	return list.iterator();
+}
+
+protected void inorder(BinaryTreeNode<T> node, ArrayList<T> list) {
+	if(node != null) {
+		inorder(node.left, list);
+		list.add(node.element);
+		inorder(node.right, list);
+	}
+}
+```
+
+### Adding Elements
+
+- We could define methods:
+	- `addLeft(T parent, T child)`
+	- `addRight(T parent, T child)`
+- These would:
+	1. Search for the node containing the `parent` (using the `protected` method `find`)
+	2. Add a new node containing `child` as _either_ the left or right child respectively.
+- `IllegalStateExeception` may be thrown anywhere:
+	- the `parent` was not found; or
+	- the `parent` already has a left/right child.
+
+Depending on the application, the specified element can replace an existing child.
+
+### Removing Elements
+
+- We could also define methods:
+	- `removeLeftChild(T parent)`
+	- `removeRightChild(T parent)`
+- These would:
+	1. Search for the node containing the `parent`.
+	2. If the __child__ to be removed is a _leaf node_, simply set the appropriate left or right link in the parent to be `null`.
+	3. If the __child__ to be removed _has descendants_ we could:
+		- remove the child and _all_ is descendants by setting the link to `null`
+		- if the child itself has _one one_ child, make this 'grandchild' the child of the patient.
+		- if the child has _two_ children, throw an __exception__, OR
+		- use some more advanced method appropriate to the situation.
+
+### Removing Elements: Examples
+
+- Remove `Jack`: simply set the right child of __Hope__ to `null`
+- Remove `Bob`: simply remove the entire __sub-tree__ headed by __Bob__, _if_ it meets the underlying application's requirements.
+- Remove `Ed`: simply name __Jill__ become the right child of __Bob__
+- Remove `Guy`: simply throw an __exception__
+
+![[Pasted image 20241214002114.png]]
+
+### Balanced Trees
+
+- A __perfect n-ary tree__ is a tree in which all leaf nodes have the same depth and all other nodes that have exactly `n` children.
+- In particular, a __perfect binary tree__ of height `h` has 2^h-1 nodes
+- A __Balanced n-ary tree__ is an n-ary tree which is perfect, or which becomes perfect if the deepest level is removed.
+- The __depths__ of all leaf nodes in a balanced tree differ by at most 1.
+- A balanced tree has the lowest possible overall _height_ for a tree of its size.
+- A __balanced tree__ of height `h` has between 2^h-1 and 2^h - 1 elements.
+
+### Balanced and Unbalanced Ternary Trees
+
+![[Pasted image 20241214002927.png]]
+
+A __balanced n-ary tree__ is an n-ary tree which is perfect, or which becomes perfect if the deepest level is removed.
+
+### Binary Search Trees
+
+- A __Binary Search Tree (BST)__ is a _binary tree_ with the added property:
+	- all members of the _left sub-tree_ of __any__ node should _precede_ the parent node, and
+	- all members of the _right sub-tree_ of __any__ node should _appear after_ the parent node.
+- Organising data in a BST make searching more efficient...
+	- A balanced BST will result in O(logn) search times.
+
+### An extremely unbalanced BST
+
+![[Pasted image 20241214003535.png]]
+
+- A tree in which every node (except the leaf node) has one child is said to be _degenerate_.
+	- Such a tree is equivalent to an __ordered list__ and searching in O(n).
+- If a BST becomes very unbalanced, _re-balancing_ is needed to maintain search efficiency.
+
+### Implementing a Binary Search Tree 
+
+- We extended class `BinaryTree`, but we must constrain the type parameter so that we can make sure that we can compare elements.
+- We introduce a `size` field so that we can override the inherited `size` with a simple efficient version.
+
+```java
+public class BST<T extends Comparable<T>> extends BinaryTree {
+	private int size;
+
+	public BST() {
+		super();
+		size = 0;
+	}
+
+	public BST(T elem) {
+		super(elem);
+		size = 1;
+	}
+
+	public int size() {
+		return this.size;
+	}
+
+	// Other methods omitted.
+
+}
+```
+
+### Adding elements to a BST using Recursion
+
+- We compare the element to be added with the element in the root, depending on whether it should _precede_, or _follow_, the root element, we recurs to add it to the left or right sub-tree.
+- The base case occurs when the node is `null`, a _new node_ containing the element is created and returned.
+- If the item is already in the tree, we may either:
+	- return without modifying the tree -> an unordered set; or...
+	- add the _duplicate element_ either _before_ the existing element (in the left sub-tree) or _after_ (in the right sub-tree). 
+
+### The method `add`
+
+When the element is already present, add it _after_ the existing element
+
+```java
+public void add(T elem) {
+	root = add(elem, root);
+	size++;
+}
+
+protected BinaryTreeNode<T> add(T elem, BinaryTreeNode<T> node) {
+	if(node == null) {
+	
+	}
+}
+```
