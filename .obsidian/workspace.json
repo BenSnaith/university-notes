@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c806393b1329e8cf",
+        "id": "32feb6aac3764df7",
         "type": "tabs",
         "children": [
           {
-            "id": "760beedb830e5dc0",
+            "id": "edd1431b55d7ecb9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DSA/Unit 13 - Trees.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Unit 13 - Trees"
+              "title": "New tab"
             }
           }
         ]
@@ -189,23 +185,22 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "760beedb830e5dc0",
+  "active": "edd1431b55d7ecb9",
   "lastOpenFiles": [
-    "Pasted image 20241214003535.png",
-    "Pasted image 20241214002927.png",
-    "Pasted image 20241214002114.png",
-    "_images/Pasted image 20241213170101.png",
+    "DSA/Unit 14 - Searching and Sorting.md",
+    "_images/Untitled 2 11.png",
+    "_images/Pasted image 20241214002114.png",
+    "_images/Pasted image 20241215120014.png",
+    "_images/Pasted image 20241215114449.png",
+    "_images/Pasted image 20241215114204.png",
+    "_images/Pasted image 20241215114046.png",
+    "_images/Pasted image 20241215113624.png",
+    "_images/Pasted image 20241215112819.png",
+    "_images/Pasted image 20241215111838.png",
+    "_images/Pasted image 20241215110958.png",
     "DSA/Unit 13 - Trees.md",
     "DSA/Unit 12 - Recursion.md",
-    "_images/Pasted image 20241213131331.png",
-    "_images/Pasted image 20241213130608.png",
-    "_images/Pasted image 20241213130943.png",
-    "_images/Pasted image 20241213130647.png",
-    "_images/Pasted image 20241212220436.png",
-    "_images/Pasted image 20241213114247.png",
     "DSA/Unit 11 - Lists.md",
-    "DSA/Unit 14 - Searching and Sorting.md",
-    "_images/Pasted image 20241212230929.png",
     "SWE/Unit 9 - Object-Oriented Detailed Design.md",
     "SWE/Unit 7 & 8 - Software Design and Architecure.md",
     "SWE/Unit 6 - Software Testing.md",

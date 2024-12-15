@@ -476,7 +476,129 @@ public void add(T elem) {
 
 protected BinaryTreeNode<T> add(T elem, BinaryTreeNode<T> node) {
 	if(node == null) {
-	
+		return new BinaryTreeNode<T>(elem);
 	}
+
+	int comp = elem.compareTo(node.element);
+	if(comp < 0) {
+		node.left = add(elem, node.left);
+	}
+	else {
+		node.right = add(elem, node.right)
+	}
+	return node;
+}
+```
+
+### An efficient search method `find`
+
+- By comparing the `target` element with the element in a node, we know whether to search its left or right sub-tree. (__Binary Search__)
+
+```java
+protected BinaryTreeNode<T> find(T target, BinaryTreeNode<T> node) {
+	if(node == null)
+		return null;
+
+	int comp = target.compareTo(node.element);
+	if(comp < 0)
+		return find(target, node.left);
+	else if(comp > 0)
+		return find(target, node.right);
+	else
+		return node;
+}
+```
+
+- Note that we do not need to override the inherited `public find` method, only the `protected` one.
+
+### Removing a Specified Element
+
+This operation is more _complicated_ than adding an element...
+
+- First locate the node to be removed using `find`.
+- If the node to be removed has children, then we cannot simply remove the node and 'orphan' its children.
+- Instead, a node needs to be 'promoted' to replace the removed one as parent. This must be done in a way which maintains the correct ordering of elements.
+- A helper method `promote` needs to be written:
+	- If the node has _no_ children, `promote` returns _null_.
+	- If the node has only _one_ child, `promote` returns that child.
+	- If the node has _both_ children, `promote` returns the _left-most right successor_.
+- To find the _left-most right successor_, we follow the right link of the node to be removed, then follow left-links as far as possible.
+	- This node has no left child (otherwise it would not be the left most.)
+- We replace the node to be removed by the _left-most right successor_
+- If the _left-most right successor_ node has a right child, replace it by its right child.
+
+### Time Complexity of Binary Search Tree Operations
+
+- For all of the methods `add`, `find` and `remove`, the most expensive part of the operation is the search for the _correct position_ of the element (and for the _left-most right successor_). This has time complexity _O(log2n)_ if the tree is balanced or nearly so.
+- The actual 'plumbing' to add or removed the node is O(1) and so the overall time complexity is still O(log2n) as this is the dominant term.
+
+### Analysis of Trees
+
+- Trees are a useful and efficient way to implement other collections. _e.g., class `TreeSet`, `TreeMap` in JCF_.
+- _Each_ search requirements going along _one_ path from the _root_ to a _left._
+- Thus, searches in BST can be programmed using either a __loop__ or __recursion__.
+- The __height__ of a balanced tree will be less than _log2(n) + 1_, where _n_ is the number of elements in the tree.
+- Using a _balanced_ binary search tree to implement an _ordered_ list, the `find` operation will execute in _logarithmic_ time (i.e. _O(logn)_)
+
+### Linked List vs. Binary Search Tree
+
+- An _ordered list_ can be implemented using a linear linked structure, and array or a binary search tree.
+- Classes `java.util.TreeSet` and `java.util.TreeMap` in JCF are _two_ implementations of an _ordered list_ using a tree data structure.
+- Analysis of _linked list_ and balanced _binary search tree_ implementations of an ordered list:
+
+![[Pasted image 20241214135501.png]]
+
+To ensure an _O(logn)_ performance, we need a _balanced_ binary search tree. In `size`, we assume the existence of a `size` field updated by add and remove operations.
+
+- Each node in an N-ary can have N or fewer children.
+	- Using the linked nodes alone to model the children is rather tedious and inflexible except perhaps for ternary trees:
+
+```java
+protected static class TernaryTreeNode<T> {
+	private T element;
+	private TernaryTreeNode<T> left;
+	private TernaryTreeNode<T> center;
+	private TernaryTreeNode<T> right;
+
+	public TernaryTreeNode(T element) {
+		this.element = element;
+		left = null;
+		center = null;
+		right = null;
+	}
+
+	// Other implementation details omitted
+
+}
+```
+
+Using this approach, we would need to define one Java class for _each_ type of N-ary tree!
+
+- It is better to store the children of each node of an N-ary tree in an _array_:
+
+```java
+public class NaryTreeNode<T> {
+	private T element;
+	private NaryTreeNode<T>[] children;
+	private int numChildren;
+
+	public NaryTreeNode(int order, T element) {
+		this.element = element;
+		children = (NaryTreeNode<T>[]) new Object[order];
+		numChildren = 0;
+	}
+
+	public void addChild(NaryTreeNode<T> child) {
+		if(numChildren < children.length) {
+			children[numChildren] = child;
+			numChildren++;
+		}
+		else {
+			// throw an exception (details omitted)
+		}
+	}
+
+	// Other implementation details omitted
+
 }
 ```
