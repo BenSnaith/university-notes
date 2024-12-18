@@ -96,4 +96,78 @@ __Templates__ typically appear within the context of specifying a generic type.
 
 ###### Collection Classes
 
-- _Collection_ classes are used to hold the object identifiers (i.e. object references) when 
+- _Collection_ classes are used to hold the object identifiers (i.e. object references) when message passing is required _from one to many_ along an association.
+- OO Languages typically provide support for working with _collection_ classes.
+
+e.g., In the Agate case study, an advertising campaign may include > 1 advertisement. Class `Campaign` may include a field such as:
+
+```java
+private List<Advert> adverts;
+```
+
+### One-to-many associations using a collection class
+
+![[Pasted image 20241215145346.png]]
+
+### Integrity Constraints
+
+- _Referential Integrity_: an `object identifier` (object reference) should refer to an object that _exists_, otherwise, it should refer to the `null` value.
+
+e.g., The `Campaign` object reference(s) which a `CreativeStaff` object keeps must be either `null` (i.e., the staff is not working on any campaign) or must reference existing `Campaign` object(s).
+
+- _Dependency Constraints_ ensure consistency in case where one attribute may be calculated from other attributes.
+
+An attribute whose value is calculated from other attributes is known as a derived attribute and is marked by / in UML.
+
+- _Domain Integrity_ attributes only hold _permissible_ values.
+
+e.g., Attributes from the `Cost` domain must be non-negative recorded in `2` decimal places.
+
+![[Pasted image 20241215190949.png]]
+
+### Interfaces
+###### Interface Specification: UML Notations
+
+- UML supports two notations to show _interfaces_:
+	- The _small circle_ icon showing no detail.
+	- A _stereotyped class_ icon with a list of the operations supported.
+		- _Normally one one of these is used on a diagram._
+- The _realisation_ relationship, represented by the dashed line with a (non-filled) triangular arrowhead, indicates that the _client_ class support at least the operations listed in the interface.
+
+![[Pasted image 20241215193008.png]]
+
+### Cohesion and Coupling
+###### What are they?
+
+- Bennett, McRobb and Farmer (2010):
+	- _Cohesion_ is a measure of the degree to which an element contributes to a single purpose.
+	- _Coupling_ describes the degree of interconnectedness between design components. It is reflected by the number of links an object has and by the degree of interaction the object has with other objects.
+- Braude and Bernstein (2011):
+	- _Cohesion_ within a module is the degree to which the module's elements _belong together..._ it is a measure of how focused a module is.
+- The concepts of coupling and cohesion are not mutually exclusive - the _interact_
+- _Maximising cohesion_ of modules of code so all contribute to the achievement of a single function.
+- _Minimising coupling_ - unnecessary linkages between module that make them difficult to maintain or use in isolation.
+
+- Several kinds of coupling and cohesion that are relevant within an _object-oriented approach:_
+	- Interaction coupling
+	- Inheritance coupling
+	- Operation cohesion
+	- Class cohesion
+	- Specialisation cohesion
+	- Temporal cohesion
+
+###### Interaction Coupling
+
+- _Interaction Coupling_ is a measure of the number of message types an object sends to other objects and the number of parameters passed with these message types.
+- As a rule of thumb: message connections involving > 3 parameters should be reconsidered to see if they could be simplified.
+- Interaction Coupling in a detailed design should be kept to a _minimum_ to reduce the possibility of changed rippling through the system to make reuse easier.
+
+###### Inheritance Coupling
+
+- _Inheritance Coupling_ describes the degree to which `subclass` actually needs the features it inherits from its `base class`.
+- As a rule of thumb, class inheritance should not be used in abundance or carelessly as it may weaken the degree of _information hiding_ in the classes concerned.
+
+![[Pasted image 20241215193920.png]]
+
+
+
