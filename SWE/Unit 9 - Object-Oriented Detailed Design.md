@@ -167,7 +167,21 @@ e.g., Attributes from the `Cost` domain must be non-negative recorded in `2` dec
 - _Inheritance Coupling_ describes the degree to which `subclass` actually needs the features it inherits from its `base class`.
 - As a rule of thumb, class inheritance should not be used in abundance or carelessly as it may weaken the degree of _information hiding_ in the classes concerned.
 
-![[Pasted image 20241215193920.png]]
+![[Pasted image 20241220192419.png]]
 
+- Classes __Vector__ and __Stack__ in package `java.util` is an example of _poor_ inheritance coupling because __Stack__ inherits a range of unsuitable methods from __Vector__.
+- __Stack__ is a _Last-In-First-Out (LIFO)_ collection with access to its elements at the __top__ of the stack only.
+- __Stack__ inherits inappropriate methods such as `insertElementAt`, `firstElement`, `setElementAt`, `removeElementAt`, and `sort` from __Vector__.
+
+###### Operation Cohesion
+
+- _Operation cohesion_ measured the degree to which an __operation__ focuses on a _single_ __functional requirement__.
+- Example of _good_ operation cohesion:
+
+![[Pasted image 20241220192920.png]]
+
+`calculateRoomSpace()` performs an atomic task: _computer total area of the room._
+
+###### Class Cohesion
 
 
