@@ -184,4 +184,74 @@ e.g., Attributes from the `Cost` domain must be non-negative recorded in `2` dec
 
 ###### Class Cohesion
 
+- _Class Cohesion_ measures the number of things a __class__ represents.
+	- _Each class should represent only a single entity, e.g. Lecturer, Student, Programme, Module, etc._
+- _Class Cohesion_ measures the degree to which a __class__ is focused on a _single_ __requirement__, e.g. maintaining a particular typical type of record.
+- Example of _good_ class cohesion:
+
+![[Pasted image 20241220193242.png]]
+
+- _Lecturer includes attributes and operations which address the same requirement: maintain lecturer record._
+
+###### Specialisation Cohesion
+
+- _Specialisation Cohesion_ addresses the semantic cohesion of inheritance hierarchies.
+- It measures the _semantic-relatedness_ between the inherited attributes and operations to the class itself.
+	- _i.e. are the classes related to each other through a __is a__ or __is a kind of__ relation? Or is the generalisation/specialisation relation defined out of convenience?
+- Class A should __extend__, and hence __inherit__ attributes and operations from, class B _only_ when A is a _specialised_ version of B, not simply because it needs to use the attributes and operations in B.
+
+![[Pasted image 20241220233014.png]]
+
+###### Temporal Cohesion
+
+- Module elements linked only by the time at which they need to be done.
+- e.g. an __initialisation__ module
+
+"Temporal cohesion is present when a subprogram performs a set of functions that are related in time, such as 'initialisation', 'house-keeping', 'wrap-up' ... The only connection between these operations is that they are performed within the same limited time-span"
+
+###### Points to note
+
+- _"Low cohesion classes often represent a very 'large grain' of abstraction or have taken on responsibilities that should have been delegated to other objects ... as a rule of thumb, a class with high cohesion has a relatively small number of methods, with highly related functionality, and does not do too much work. It collaborates with other objects to share the effort if the task is large"_
+- _"...no coupling between classes ... offends against a central metaphor of object technology ... low coupling taken to excess yields to poor design ... it is not high coupling per se that is the problem; it is high coupling to elements that are unstable in some dimension, such as their interface, implementation, or mere presence."_
+
+### Liskov Substitution Principle
+###### What is it?
+
+_"What is wanted here is something like the following substitution property; if for each object o1 of type S there is an object o2 of type T such that for all programs P defined in terms of T, the behaviour of P is unchanged when o1 is substituted for o2 then S is a sub-type of T."_
+
+```java
+public void setDriver(Member carUser) {
+	if(carUser.hasDrivingLicence()) {
+		driver = carUser;
+	}
+}
+```
+
+```java
+public void setDriver(Staff carUser) {
+	if(carUser.hasDrivingLicence()) {
+		driver = carUser;
+	}
+}
+```
+
+_Here Staff is an extension of Member_
+
+- _"Functions that use pointers or references to base classes must be able to use objects derived classes without knowing it."_
+- Essentially the principle states that, in object interactions, it should be possible to treat a __derived object__ (an instance of a __subclass__) as if it were a __base object__ (an instance of a __superclass__) without integrity problems.
+
+###### A Liskov-compliant Class Hierarchy
+
+![[Pasted image 20241220235017.png]]
+
+###### Why LSP?
+
+- LSP helpts to ensure that an OO class design is _maintainable_ and _reusable_
+	- Subclasses typically inherit attributes and operations from their superclass.
+	- If an attribute or operation is unsuitable (not applicable) for the semantic of a subclass, it is possible for the subclass to _"disinherit"_ it by declaring it __private__.
+		- _However, this will violate the Liskov Substitution Principle._
+
+###### Applying Liskov Substitution Principle
+
+![[Pasted image 20241220235330.png]]
 
