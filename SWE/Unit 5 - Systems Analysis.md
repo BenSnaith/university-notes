@@ -152,3 +152,28 @@ Process:
 - For each boundary object interaction determine whether there is a need to involve another object.
 	- If the interaction is about a single entity object, create it.
 	- If the system needs to perform an action that involves more than one entity object, consider creating a control object to manage the action.
+
+### Resulting Sequence Diagram
+
+![[Pasted image 20241226135247.png]]
+
+### Sequence Diagram to Communication Diagrams
+
+- __UML Communication diagrams__ are another way of interrelating objects in sequence diagrams.
+- Numbering interactions in sequence diagrams translates them easier to communication diagrams.
+- Easier to derive class from communication diagrams.
+
+![[Pasted image 20241226140413.png]]
+
+### Communication Diagrams to Class Diagrams
+
+- Knowing the objects, one can derive a UML class diagram and add further details such as attributes, associations and multiplicities.
+- Note that some of these details may need clarification with the business analysts/stakeholders.
+
+![[Pasted image 20241226140613.png]]
+
+### Finishing by Aggregating all Models
+
+- The process of taking your design from use case and use case descriptions, to sequence diagrams, to communication diagrams and ultimately to class diagrams is iterative.
+- At the end, we try to aggregate all the generated models into one outline class models of the software system.
+- Nothing stops you from using other UML diagrams to generate your models. e.g. State Machine Diagrams are often used in Systems Analysis to model __Actor__ -- GUI interaction.

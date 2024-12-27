@@ -235,7 +235,7 @@ Exception path:
     - Prototyping: an executable model of the system in question is demonstrated to end-users and customers.
     - Test-case generation: if a test is difficult or impossible to design, the requirements will be difficult to implement.
 
-## Requirements Specification
+### Requirements Specification
 
 - Requirements specification is the process of writing down the requirements in the requirements document.
 - Almost always written in natural language supplemented by diagrams and tables.
