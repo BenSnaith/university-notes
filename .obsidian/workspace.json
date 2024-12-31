@@ -11,14 +11,10 @@
             "id": "e3719cf562fc94c7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SWE/Unit 5 - Systems Analysis.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Unit 5 - Systems Analysis"
+              "title": "New tab"
             }
           }
         ]
@@ -189,12 +185,27 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "e3719cf562fc94c7",
+  "active": "bec57f9a5c6cc004",
   "lastOpenFiles": [
+    "IAI/Unit 9 - Natural Language Processing (NLP).md",
+    "IAI/Unit 8 - Neural Networks and Deep Learning II.md",
+    "IAI/Unit 7 - Neural Networks and Deep Learning I.md",
+    "IAI/Unit 6 - Machine Learning II.md",
+    "IAI/Unit 5 - Machine Learning I.md",
+    "IAI/Unit 4 - Solving Problems by Searching II.md",
+    "IAI/Unit 3 - Solving problems by searching I.md",
+    "IAI/Unit 2 - Intelligent Agents.md",
+    "IAI/Unit 1 - Introduction to AI.md",
+    "IAI/Unit 11 - Knowledge Representation II.md",
+    "IAI/Unit 10 - Knowledge Representation I.md",
+    "IAI/Unit 3 - Solving Problems by Search.md",
+    "IAI/Unit 1 - Intro to AI.md",
+    "IAI/Unit 4 - Searching II.md",
+    "IAI/Unit 5 - Machine Learning.md",
+    "SWE/Unit 5 - Systems Analysis.md",
     "SWE/Unit 6 - Software Testing.md",
     "_images/Pasted image 20241226140413.png",
     "SWE/Unit 7 & 8 - Software Design and Architecure.md",
-    "SWE/Unit 5 - Systems Analysis.md",
     "_images/Pasted image 20241226140613.png",
     "SWE/Unit 4 - Business Analysis, UML Diagrams, State machine diagrams.md",
     "SWE/Unit 12 - Refactoring.md",
@@ -212,24 +223,10 @@
     "SWE/Unit 10 - Design Patterns.md",
     "SWE/Unit 9 - Object-Oriented Detailed Design.md",
     "_images/Pasted image 20241220235330.png",
-    "conflict-files-obsidian-git.md",
-    "DSA/Unit 14 - Searching and Sorting.md",
-    "DSA/Unit 13 - Trees.md",
-    "DSA/Unit 12 - Recursion.md",
-    "DSA/Unit 11 - Lists.md",
-    "LeetCode/Array/49. Group Anagrams.md",
-    "LeetCode/Array/1. Two Sum.md",
-    "LeetCode/Array/242. Valid Anagram.md",
-    "LeetCode/Array/217. Contains Duplicate.md",
     "LeetCode/Array",
     "LeetCode",
-    "IAI/Labs/Lab 3.md",
-    "IAI/Lectures/Unit 1 - Intro to AI.md",
     "IAI/Labs",
-    "IAI/Lectures/Unit 3 - Solving Problems by Search.md",
     "IAI/Lectures",
-    "IAI/Lectures/Unit 2 - Intelligent Agents.md",
-    "IAI/Lectures/Unit 4 - Searching II.md",
     "SWE",
     "IAI",
     "Misc",
