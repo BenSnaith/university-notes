@@ -1,0 +1,3 @@
+- [ ] Design Patterns
+- [ ] Assertions and Assert Statements
+- [ ] UML Flashcards

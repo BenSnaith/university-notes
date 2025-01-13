@@ -102,6 +102,7 @@ public class Customer {
 ###### 3. Convert procedural design to objects
 
 - Improve the design by removing _procedural_ components into classes.
+- To improve a design by breaking up long sequences of script and method calls into classes.
 
 ![[Pasted image 20241226133238.png]]
 
@@ -154,6 +155,7 @@ boolean hasDiscount(Order order) {
 	- When >= 2 subclasses in the same class hierarchy have the same field(s), move the common field(s) from the subclasses to the superclass.
 - __Pull Up Method__
 	- When two methods in different subclasses within the same class hierarchy have essentially the same behaviours, move the method to the superclass.
+	- Move a field or method to a superclass of its declaring class or (in the case of methods) declares the method as abstract in the superclass.
 - __Push Down Field__
 	- When a field is used by some subclasses only, but not all subclasses, move the field to those subclasses which use that field.
 - __Push Down Method__
@@ -162,6 +164,8 @@ boolean hasDiscount(Order order) {
 	- When there is a feature in a class that is applicable to some instances only, create a subclass for that class and move the feature to it.
 - __Extract Superclass__
 	- Make a new class from the common field(s) and method(s) in a set of existing classes, with the extracting classes becoming the direct subclasses of the new class.
+	- Extract a common class from a set of sibling types which has the same subset of methods. The selected sibling types become direct subclasses of the new class after applying the refactoring.
 - __Extract Interface__
 	- Make a new interface from an existing class, with the class becoming one which implements the new interface.
-- 
+- __Extract Hierarchy__
+	- Make a class design more flexible by introducing or extending inheritance relationships.
