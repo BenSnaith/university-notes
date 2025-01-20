@@ -132,3 +132,18 @@ applicatorFunc inpFunc 's'
 Output: 15.0
 ```
 
+### Logical PLs
+
+- Even more abstract model of computation than functional PLs
+- A computer is viewed as a semi-intelligent agent which has access to knowledge (in a programme)
+- The agent can be asked a question and it will do its best to deduce an answer from the knowledge available in the program.
+
+### Programme Execution
+
+| Interpreter Based Execution                                    | Compiler Based Execution                                                     |
+| -------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| Source code translated to machine code line by line            | Entire source code is translated to machine code at the same time            |
+| Performs prompt analysis of time to analyse source code        | Consumes more time to analyse the source code                                |
+| Slow code execution                                            | Much faster code execution                                                   |
+| Debugging is relatively easier due to line-by-line translation | Debugging is relatively harder since an error can be anywhere in the program |
+| Examples: Prolog, Python                                       | Examples: C, C++                                                             |
