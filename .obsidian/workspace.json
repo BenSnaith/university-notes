@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IS/Case Studies/Unit 1 - Elections.md",
+                "file": "PLC/Unit 1 - Intro.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Unit 1 - Elections"
+              "title": "Unit 1 - Intro"
             }
           }
         ]
@@ -189,11 +189,18 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "bec57f9a5c6cc004",
+  "active": "328e58afa2d76537",
   "lastOpenFiles": [
+    "Pasted image 20250119212152.png",
+    "Pasted image 20250119212131.png",
+    "Pasted image 20250119205443.png",
+    "_images/Pasted image 20250119201215.png",
+    "IS/Case Studies/Unit 1 - Elections.md",
+    "PLC/Unit 1 - Intro.md",
+    "HCI",
+    "PLC",
     "IS/Tutorials",
     "IS/Lectures/Unit 1 - Introduction.md",
-    "IS/Case Studies/Unit 1 - Elections.md",
     "_images/Pasted image 20250113161740.png",
     "_images/Pasted image 20250113163853.png",
     "_images/Pasted image 20250113163827.png",
@@ -201,11 +208,7 @@
     "_images/Pasted image 20250113163144.png",
     "_images/Pasted image 20250113163044.png",
     "_images/Pasted image 20250113162949.png",
-    "_images/Pasted image 20250113162642.png",
-    "_images/Pasted image 20250113162236.png",
-    "_images/Pasted image 20250113162135.png",
     "IS/Case Studies",
-    "Untitled",
     "IS/Lectures",
     "IS",
     "conflict-files-obsidian-git.md",
@@ -231,11 +234,8 @@
     "IAI/Unit 11 - Knowledge Representation II.md",
     "IAI/Unit 9 - Natural Language Processing (NLP).md",
     "IAI/Unit 8 - Neural Networks and Deep Learning II.md",
-    "IAI/Unit 7 - Neural Networks and Deep Learning I.md",
     "LeetCode/Array",
     "LeetCode",
-    "IAI/Labs",
-    "IAI/Lectures",
-    "SWE"
+    "IAI/Labs"
   ]
 }
