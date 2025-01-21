@@ -11,10 +11,14 @@
             "id": "d6672c20329f887e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "HCI/Unit 1 - Intro.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Unit 1 - Intro"
             }
           }
         ]
@@ -185,8 +189,10 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "bec57f9a5c6cc004",
+  "active": "d6672c20329f887e",
   "lastOpenFiles": [
+    "HCI/Unit 1 - Intro.md",
+    "PLC/Unit 1 - Intro.md",
     "HCI",
     "_images/Pasted image 20250119205443.png",
     "Year 2",
@@ -208,7 +214,6 @@
     "Year 2/SWE/UML Cheat Sheet.md",
     "Year 2/SWE/Misc.md",
     "Year 2/SWE/All Units.md",
-    "PLC/Unit 1 - Intro.md",
     "PLC",
     "IS/Lectures/Unit 1 - Introduction.md",
     "IS/Case Studies/Unit 1 - Elections.md",
@@ -231,7 +236,6 @@
     "LeetCode",
     "Year 2/SWE/Unit 4 - Business Analysis, UML Diagrams, State machine diagrams.md",
     "IAI/Labs",
-    "IAI/Lectures",
-    "Year 2/SWE"
+    "IAI/Lectures"
   ]
 }
