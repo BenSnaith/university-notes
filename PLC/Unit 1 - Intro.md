@@ -138,6 +138,14 @@ Output: 15.0
 - A computer is viewed as a semi-intelligent agent which has access to knowledge (in a programme)
 - The agent can be asked a question and it will do its best to deduce an answer from the knowledge available in the program.
 
+### Agentic-AI
+
+- __What is Agentic-AI:__ "Agentic-AI is a type of AI that can make decisions, solve problems, and adapt to changing conditions"
+
+### Agentic-AI and Logical PLs
+
+"Agentic AI systems provide the best of both worlds: using LLMs to handle tasks that benefit from __flexibility and dynamic responses__, while combining these AI capabilities with __traditional programming__ for _strict rules, logic and performance._ This hybrid approach enables the AI to be both intuitive and precise."
+
 ### Programme Execution
 
 | Interpreter Based Execution                                    | Compiler Based Execution                                                     |
