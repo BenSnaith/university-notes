@@ -11,10 +11,14 @@
             "id": "00be7c86d0d5c256",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "PLC/Unit 4 - Primitive Types.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Unit 4 - Primitive Types"
             }
           }
         ]
@@ -186,8 +190,12 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "350b63eba4eff633",
+  "active": "00be7c86d0d5c256",
   "lastOpenFiles": [
+    "IS/Lectures/Unit 2C - Key Exchange & Asymmetric Cryptosystems.md",
+    "PLC/Unit 4 - Primitive Types.md",
+    "IS/Lectures/Unit 2A - Cryptography and Ciphers.md",
+    "IS/Lectures/Unit 2B - Cryptography Classification.md",
     "_images/Pasted image 20250204131414.png",
     "PLC/Unit 3 - Numeric Types.md",
     "_images/Pasted image 20250204135018.png",
@@ -201,8 +209,6 @@
     "_images/Pasted image 20250128121507.png",
     "_images/Pasted image 20250128121244.png",
     "_images/Pasted image 20250128121206.png",
-    "IS/Lectures/Unit 2B - Cryptography Classification.md",
-    "IS/Lectures/Unit 2A - Cryptography and Ciphers.md",
     "PLC/Unit 1 - Intro.md",
     "HCI",
     "Year 2",
@@ -228,7 +234,6 @@
     "Year 2/DSA/Unit 11 - Lists.md",
     "Year 2/SWE/Unit 7 & 8 - Software Design and Architecure.md",
     "Year 2/SWE/Unit 6 - Software Testing.md",
-    "Year 2/SWE/Unit 5 - Systems Analysis.md",
     "LeetCode/Array",
     "LeetCode",
     "IAI/Labs",
