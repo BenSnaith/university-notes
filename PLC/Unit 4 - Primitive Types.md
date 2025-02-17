@@ -30,5 +30,63 @@ int main()
 ```
 
 - `bool` is just an `int` type "under-the-hood".
-- anything non-zero is considered true.
+- anything non-zero is considered true, this is like "truthy" values in JS.
 
+##### String Formatting
+
+![[Pasted image 20250217102922.png]]
+
+##### Booleans and Characters in Java
+
+![[Pasted image 20250217103101.png]]
+
+##### Enumerated types in C/C++ and Java
+
+![[Pasted image 20250217103143.png]]
+
+![[Pasted image 20250217103217.png]]
+
+![[Pasted image 20250217103255.png]]
+
+- Basically in C, enums are integers, there are enumerated haha.
+- Whereas in Java each enum type on the enum class is its own class.
+
+##### Enumerated types in JavaScript
+
+- There is no explicit enumerated type in JS.
+- The keyword `enum` exists, but is reserved for future use
+- Several different ways of implementing enumerated types in JS, each with pros and cons
+- We will discuss one of these.
+
+- Defining enums as Object Keys
+- Use an object to encapsulate an enum type and assign a key to each enum value.
+
+```js
+const HouseCategory = {
+	DETACHED: "DETACHED",
+	SEMIDETACHED: "SEMIDETACHED",
+	TERRACE: "TERRACE"
+}
+```
+
+##### Overview of Haskell primitive values
+
+![[Pasted image 20250217103745.png]]
+
+##### Formatting and parsing in Haskell
+
+![[Pasted image 20250217104039.png]]
+
+### Summary
+
+- C:
+	- Limited range of primitive values.
+	- Much opportunity for errors to go undetected.
+	- Formatting and parsing facilities limited.
+- Java:
+	- Safer due to a range of abstract values and types.
+	- Good generic formatting mechanism.
+	- No generic parsing mechanism.
+- Haskell:
+	- Symbolic primitive values for an purpose, typed.
+	- Excellent type-checking improves safety.
