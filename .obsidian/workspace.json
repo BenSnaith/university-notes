@@ -11,12 +11,14 @@
             "id": "37b0324976c8c1dc",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "_images/Pasted image 20250217102922.png"
+                "file": "PLC/Unit 6 - Collections.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250217102922"
+              "icon": "lucide-file",
+              "title": "Unit 6 - Collections"
             }
           }
         ]
@@ -188,21 +190,24 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "bec57f9a5c6cc004",
+  "active": "37b0324976c8c1dc",
   "lastOpenFiles": [
     "PLC/Unit 5 - Records and Tuples.md",
-    "_images/Pasted image 20250217105011.png",
-    "_images/Pasted image 20250217104915.png",
+    "PLC/Unit 6 - Collections.md",
+    "PLC/Unit 10 - Subprograms.md",
+    "_images/Pasted image 20250411193710.png",
+    "PLC/Unit 9 - Variables.md",
+    "_images/Pasted image 20250411193737.png",
+    "_images/Pasted image 20250411190040.png",
+    "_images/Pasted image 20250411192119.png",
+    "_images/Pasted image 20250411192027.png",
+    "_images/Pasted image 20250411191923.png",
+    "_images/Pasted image 20250411191828.png",
+    "_images/Pasted image 20250411191727.png",
+    "_images/Pasted image 20250411191558.png",
+    "_images/Pasted image 20250411190330.png",
     "PLC/Unit 4 - Primitive Types.md",
-    "_images/Pasted image 20250217104039.png",
-    "_images/Pasted image 20250217103745.png",
-    "_images/Pasted image 20250217103255.png",
-    "_images/Pasted image 20250217103217.png",
-    "_images/Pasted image 20250217103143.png",
-    "_images/Pasted image 20250217103101.png",
-    "_images/Pasted image 20250217102922.png",
     "PLC/Unit 2 - Types of PLs.md",
-    "_images/Pasted image 20250204135018.png",
     "PLC/Unit 3 - Numeric Types.md",
     "IS/Lectures/Unit 2C - Key Exchange & Asymmetric Cryptosystems.md",
     "PLC/Unit 1 - Intro.md",
@@ -223,8 +228,6 @@
     "Year 2/SWE/Unit 11 - Implementation (assertions).md",
     "Year 2/SWE/Unit 10 - Design Patterns.md",
     "Year 2/SWE/Unit 1 - Systems, Emergent Properties, Modelling and UML.md",
-    "Year 2/SWE/UML Cheat Sheet.md",
-    "Year 2/SWE/Misc.md",
     "Year 2/IAI/Book Specific",
     "Year 2/SWE",
     "Year 2/IAI",
