@@ -11,14 +11,12 @@
             "id": "37b0324976c8c1dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "PLC/Unit 5 - Records and Tuples.md",
-                "mode": "source",
-                "source": false
+                "file": "_images/Pasted image 20250217102922.png"
               },
-              "icon": "lucide-file",
-              "title": "Unit 5 - Records and Tuples"
+              "icon": "lucide-image",
+              "title": "Pasted image 20250217102922"
             }
           }
         ]
@@ -190,22 +188,21 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "37b0324976c8c1dc",
+  "active": "bec57f9a5c6cc004",
   "lastOpenFiles": [
-    "Pasted image 20250217105011.png",
-    "Pasted image 20250217104915.png",
-    "PLC/Unit 4 - Primitive Types.md",
     "PLC/Unit 5 - Records and Tuples.md",
-    "Pasted image 20250217104039.png",
-    "Pasted image 20250217103745.png",
-    "Pasted image 20250217103255.png",
-    "Pasted image 20250217103217.png",
-    "Pasted image 20250217103143.png",
-    "Pasted image 20250217103101.png",
-    "Pasted image 20250217102922.png",
+    "_images/Pasted image 20250217105011.png",
+    "_images/Pasted image 20250217104915.png",
+    "PLC/Unit 4 - Primitive Types.md",
+    "_images/Pasted image 20250217104039.png",
+    "_images/Pasted image 20250217103745.png",
+    "_images/Pasted image 20250217103255.png",
+    "_images/Pasted image 20250217103217.png",
+    "_images/Pasted image 20250217103143.png",
+    "_images/Pasted image 20250217103101.png",
+    "_images/Pasted image 20250217102922.png",
     "PLC/Unit 2 - Types of PLs.md",
     "_images/Pasted image 20250204135018.png",
-    "_images/Pasted image 20250204134937.png",
     "PLC/Unit 3 - Numeric Types.md",
     "IS/Lectures/Unit 2C - Key Exchange & Asymmetric Cryptosystems.md",
     "PLC/Unit 1 - Intro.md",
