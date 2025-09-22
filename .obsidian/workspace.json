@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PLC/Unit 6 - Collections.md",
+                "file": "Year 2/PLC/Unit 6 - Collections.md",
                 "mode": "source",
                 "source": false
               },
@@ -179,6 +179,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -190,13 +191,16 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "37b0324976c8c1dc",
+  "active": "bec57f9a5c6cc004",
   "lastOpenFiles": [
-    "PLC/Unit 5 - Records and Tuples.md",
-    "PLC/Unit 6 - Collections.md",
-    "PLC/Unit 10 - Subprograms.md",
+    "IP",
+    "SPM",
+    "Year 3",
+    "Year 2/PLC/Unit 5 - Records and Tuples.md",
+    "Year 2/PLC/Unit 6 - Collections.md",
+    "Year 2/PLC/Unit 10 - Subprograms.md",
     "_images/Pasted image 20250411193710.png",
-    "PLC/Unit 9 - Variables.md",
+    "Year 2/PLC/Unit 9 - Variables.md",
     "_images/Pasted image 20250411193737.png",
     "_images/Pasted image 20250411190040.png",
     "_images/Pasted image 20250411192119.png",
@@ -206,14 +210,14 @@
     "_images/Pasted image 20250411191727.png",
     "_images/Pasted image 20250411191558.png",
     "_images/Pasted image 20250411190330.png",
-    "PLC/Unit 4 - Primitive Types.md",
-    "PLC/Unit 2 - Types of PLs.md",
-    "PLC/Unit 3 - Numeric Types.md",
-    "IS/Lectures/Unit 2C - Key Exchange & Asymmetric Cryptosystems.md",
-    "PLC/Unit 1 - Intro.md",
-    "IS/Lectures/Unit 2B - Cryptography Classification.md",
-    "IS/Lectures/Unit 2A - Cryptography and Ciphers.md",
-    "IS/Lectures/Unit 1 - Introduction.md",
+    "Year 2/PLC/Unit 4 - Primitive Types.md",
+    "Year 2/PLC/Unit 2 - Types of PLs.md",
+    "Year 2/PLC/Unit 3 - Numeric Types.md",
+    "Year 2/IS/Lectures/Unit 2C - Key Exchange & Asymmetric Cryptosystems.md",
+    "Year 2/PLC/Unit 1 - Intro.md",
+    "Year 2/IS/Lectures/Unit 2B - Cryptography Classification.md",
+    "Year 2/IS/Lectures/Unit 2A - Cryptography and Ciphers.md",
+    "Year 2/IS/Lectures/Unit 1 - Introduction.md",
     "Year 2/SWE/What to work on for Exam.md",
     "Year 2/SWE/Unit 9 - Object-Oriented Detailed Design (coupling & cohesion).md",
     "Year 2/SWE/Unit 7 & 8 - Software Design and Architecure.md",
@@ -227,16 +231,13 @@
     "Year 2/SWE/Unit 12 - Refactoring.md",
     "Year 2/SWE/Unit 11 - Implementation (assertions).md",
     "Year 2/SWE/Unit 10 - Design Patterns.md",
-    "Year 2/SWE/Unit 1 - Systems, Emergent Properties, Modelling and UML.md",
     "Year 2/IAI/Book Specific",
     "Year 2/SWE",
     "Year 2/IAI",
     "Year 2/DSA",
     "Year 2",
-    "HCI",
-    "PLC",
-    "IS/Tutorials",
-    "IS/Case Studies",
-    "IS/Lectures"
+    "Year 2/HCI",
+    "Year 2/PLC",
+    "Year 2/IS/Tutorials"
   ]
 }
