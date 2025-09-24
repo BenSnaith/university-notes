@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4e1edc0ea88cc9a5",
+        "id": "8f6842a0ed76ddc8",
         "type": "tabs",
         "children": [
           {
-            "id": "37b0324976c8c1dc",
+            "id": "481b09e267a47b4f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Year 2/PLC/Unit 6 - Collections.md",
+                "file": "NLP/Week 1 - Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Unit 6 - Collections"
+              "title": "Week 1 - Introduction"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "8c4ae4ecaa230faf",
@@ -191,8 +192,15 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "bec57f9a5c6cc004",
+  "active": "481b09e267a47b4f",
   "lastOpenFiles": [
+    "Year 1/IAD/Week 3 - JavaScript.md",
+    "NLP/Week 1 - Introduction.md",
+    "Year 1/CS/Comp Systems - Lecture 1 - Introduction - 29-09-23.md",
+    "SMAC",
+    "SPM",
+    "NLP",
+    "Year 3",
     "IP",
     "SPM",
     "Year 3",
@@ -229,15 +237,8 @@
     "Year 2/IAI/Book Specific/Intelligent Agents.md",
     "Year 2/SWE/Unit 2 - Software Lifecycle, Agile, UML Activity Diagram.md",
     "Year 2/SWE/Unit 12 - Refactoring.md",
-    "Year 2/SWE/Unit 11 - Implementation (assertions).md",
-    "Year 2/SWE/Unit 10 - Design Patterns.md",
     "Year 2/IAI/Book Specific",
     "Year 2/SWE",
-    "Year 2/IAI",
-    "Year 2/DSA",
-    "Year 2",
-    "Year 2/HCI",
-    "Year 2/PLC",
-    "Year 2/IS/Tutorials"
+    "Year 2/IAI"
   ]
 }
