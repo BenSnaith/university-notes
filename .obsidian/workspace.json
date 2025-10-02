@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLP/Week 2 - Data Pre-processing and text analytics.md",
+                "file": "NLP/Week 1 - Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 2 - Data Pre-processing and text analytics"
+              "title": "Week 1 - Introduction"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "8c4ae4ecaa230faf",
@@ -194,6 +193,7 @@
   },
   "active": "481b09e267a47b4f",
   "lastOpenFiles": [
+    "NLP/Week 2 - Data Pre-processing and text analytics.md",
     "Pasted image 20251001102426.png",
     "Pasted image 20251001095735.png",
     "Pasted image 20251001092642.png",
@@ -201,13 +201,11 @@
     "Pasted image 20251001091748.png",
     "Pasted image 20251001090838.png",
     "_images/Pasted image 20250929140032.png",
-    "NLP/Week 2 - Data Pre-processing and text analytics.md",
     "SMAC/Week 2 - Intrusion Detection.md",
     "_images/Pasted image 20250929155441.png",
     "SMAC/Week 1 - Overview of Security.md",
     "_images/Pasted image 20250929153621.png",
     "_images/Pasted image 20250929153538.png",
-    "_images/Pasted image 20250929153313.png",
     "IP/Indivial project.md",
     "NLP/Week 1 - Introduction.md",
     "IP",
