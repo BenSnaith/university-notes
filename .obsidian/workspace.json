@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLP/Week 1 - Introduction.md",
+                "file": "NLP/Week 3 - Firewalls and Intrusion Prevention System.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 1 - Introduction"
+              "title": "Week 3 - Firewalls and Intrusion Prevention System"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "8c4ae4ecaa230faf",
@@ -193,6 +194,8 @@
   },
   "active": "481b09e267a47b4f",
   "lastOpenFiles": [
+    "NLP/Week 1 - Introduction.md",
+    "NLP/Week 3 - Firewalls and Intrusion Prevention System.md",
     "NLP/Week 2 - Data Pre-processing and text analytics.md",
     "Pasted image 20251001102426.png",
     "Pasted image 20251001095735.png",
@@ -207,7 +210,6 @@
     "_images/Pasted image 20250929153621.png",
     "_images/Pasted image 20250929153538.png",
     "IP/Indivial project.md",
-    "NLP/Week 1 - Introduction.md",
     "IP",
     "Year 1/IAD/Week 3 - JavaScript.md",
     "Year 1/CS/Comp Systems - Lecture 1 - Introduction - 29-09-23.md",
