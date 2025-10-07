@@ -56,3 +56,100 @@ The firewall itself is immune to penetration.
 	 - Cannot see all the traffic if not positioned properly
 	 - Not a malicious code scanner
 	 - Not an IDS
+
+## Terminology
+
+ - **Stateless Firewall**: The firewall makes a decision on a packet by packet basis.
+ - **Stateful Firewall**: The firewall keeps state information about transactions (connections).
+ - **NAT - Network Address Translation**: Translates public IP address(es) to private IP address(es) on a private LAN.
+
+## Firewall Categories
+
+ - **Firewall Methods**:
+	 - Packet filters
+	 - Stateful Packet Inspection (SPI)
+	 - Proxy Firewalls
+	 - Stateful Multilayer Packet Inspection
+ - **Firewall Types**:
+	 - Hardware
+	 - Software
+
+## Firewall Methods: Packet Filters
+
+![[Pasted image 20251007124941.png]]
+
+![[Pasted image 20251007125004.png]]
+
+## Firewall Methods: Stateful
+
+![[Pasted image 20251007125147.png]]
+
+## Firewall Methods: Proxy
+
+ - Uses protocol information or application information
+ - Each service needs a proxy e.g. Web proxy
+ - Filter on specific commands e.g. `http:post` or `http:get`
+
+![[Pasted image 20251007125248.png]]
+
+## Firewall Methods: Stateful Multilayer Packet Inspection
+
+ - Combined other 3 types (except no proxys).
+ - Algorithms used to recognise application layer data.
+ - Examines entire packet. Headers and data. Blurring the line between firewall and IDS.
+
+![[Pasted image 20251007125411.png]]
+
+## Firewall Categories
+
+ - **Hardware**:
+	 - Stand-alone product - *Needs to be compatible*
+	 - Can be effective with little or no configuration - *Can't protect from some threats*
+	 - Uses packet filtering to examine the header - *Connection speed effects*
+	 - Easier to maintain and administer - *Manipulation is easy*
+
+## Firewall Risks and Disadvantages
+
+![[Pasted image 20251007125640.png]]
+
+## Placement of the Firewall
+
+1. The structure of your network (sections, subnets, DMZ)
+2. The traffic patterns
+3. Protect all internet access points and gateways
+4. Remote access
+5. Special needs of your infrastructure
+
+![[Pasted image 20251007125742.png]]
+
+## Firewall rules management
+
+*Deny by default, allow by exception*
+
+ - Rules = filters
+ - Pre-configured firewalls are not good practice, you should:
+	 - Do an inventory of essential **business applications & communications**
+	 - Determine protocols/ports/IP @ of **valid traffic**
+	 - Write the rules and test them in a lab environment
+	 - Obtain approval for the rule sets
+	 - Document the rules into a security policy
+
+## Firewall enhancements
+
+First, get a reliable filtering device, then you could add a few add-ons such as:
+ - IDS/IPS
+ - Malware scanning
+ - VPN end-points
+ - Unified Threat Management (UTM)
+
+But don't forget to check:
+ - Updates of the add-on
+ - Network performance
+
+## Firewall management and security
+
+ - **Best practices for firewall management**
+ - Design a complete security solution around the firewalls
+ - **Mitigating** firewall threats and exploits and **testing** the firewal security.
+ - Managing and monitoring the **Firewall**
+	 - **Snort**: can detect firewall breaches.
