@@ -153,3 +153,47 @@ But don't forget to check:
  - **Mitigating** firewall threats and exploits and **testing** the firewal security.
  - Managing and monitoring the **Firewall**
 	 - **Snort**: can detect firewall breaches.
+	 - **Backtrack, netcat**: hack your own firewall
+	 - **Syslog**: properly managing logs
+	 - **Wireshark**
+
+## DMZ Design: De-militarised Zone
+
+![[Pasted image 20251007130428.png]]
+
+## Goals of a DMZ
+
+ - The core goal of DMZ is to segregate devices, systems, sevices and applications based on risk.
+ - DMZ exists to mitigate risk by isolating certain services and function in a separate segment of the network.
+ - DMZ is used to add an additional layer of security in a layered security model.
+
+## DMZ Architecture
+
+ - DMZ use a firewall to restrict access from internet to private LAN to protect against compromises.
+ - Example:
+	 - Allow connections from Internet to mail server on port 25 (SMTP)
+	 - Allow connections from intranet to mail server over port 993 (secure IMAP)
+ - Two of the most basic DMZ design architecture are:
+	 - A single firewall.
+	 - Dual firewalls.
+
+## DMZ design with a single firewall
+
+ - A single firewall with at least 3 network interfaces:
+	 - 1st firewall interface: The external network (Internet)
+	 - 2nd firewall interface: The internal network
+	 - 3rd firewall interface: DMZ
+ - The firewall will handle all of the traffic going to ht eDMZ as well as the internal network.
+
+## DMZ design with Dual firewall
+
+ - More secure approach is to use two firewalls to create a DMZ
+	 - The first firewall (also called the "front-end") configured to allow traffic destined to the DMZ only.
+	 - The second firewall (also called the "back-end") allows only traffic from the DMZ to the internal network.
+
+## DMZ Summary
+
+ - DMZ always you to completely segment your network in terms of trust. You can initiate connections to DMZ and Internet, but neither of those two networks can initiate connections to you.
+ - It is generally inappropriate to locate a Critical servers (e.g Radius) in a DMZ segment.
+ - DMZ designers should be aware of protocol vulnerabilities.
+ - Firewall or router should be configured to initiate a log message or rule alert to notify administrator.
