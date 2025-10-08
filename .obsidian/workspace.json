@@ -11,14 +11,12 @@
             "id": "481b09e267a47b4f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "NLP/Week 3 - Firewalls and Intrusion Prevention System.md",
-                "mode": "source",
-                "source": false
+                "file": "_images/Pasted image 20251008092108.png"
               },
-              "icon": "lucide-file",
-              "title": "Week 3 - Firewalls and Intrusion Prevention System"
+              "icon": "lucide-image",
+              "title": "Pasted image 20251008092108"
             }
           }
         ]
@@ -78,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "8c4ae4ecaa230faf",
@@ -192,22 +189,22 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "481b09e267a47b4f",
+  "active": "bec57f9a5c6cc004",
   "lastOpenFiles": [
-    "Pasted image 20251007130428.png",
-    "Pasted image 20251007125742.png",
-    "Pasted image 20251007125640.png",
-    "Pasted image 20251007125411.png",
-    "Pasted image 20251007125248.png",
-    "Pasted image 20251007125147.png",
-    "Pasted image 20251007125004.png",
-    "Pasted image 20251007124941.png",
+    "NLP/Week 3 - Vector Semantics and Embeddings.md",
+    "_images/Pasted image 20251008102311.png",
+    "_images/Pasted image 20251008102136.png",
+    "_images/Pasted image 20251008100410.png",
+    "_images/Pasted image 20251008100339.png",
+    "_images/Pasted image 20251008095751.png",
+    "_images/Pasted image 20251008095258.png",
+    "_images/Pasted image 20251008094852.png",
+    "_images/Pasted image 20251008094607.png",
+    "_images/Pasted image 20251008094539.png",
+    "_images/Pasted image 20251008094525.png",
+    "SMAC/Week 3 - Firewalls and Intrusion Prevention System.md",
     "NLP/Week 1 - Introduction.md",
-    "NLP/Week 3 - Firewalls and Intrusion Prevention System.md",
     "NLP/Week 2 - Data Pre-processing and text analytics.md",
-    "Pasted image 20251001102426.png",
-    "Pasted image 20251001095735.png",
-    "Pasted image 20251001092642.png",
     "SMAC/Week 2 - Intrusion Detection.md",
     "SMAC/Week 1 - Overview of Security.md",
     "IP/Indivial project.md",
@@ -237,7 +234,6 @@
     "Year 2/SWE/Unit 9 - Object-Oriented Detailed Design (coupling & cohesion).md",
     "Year 2/SWE/Unit 7 & 8 - Software Design and Architecure.md",
     "Year 2/SWE/Unit 6 - Software Testing.md",
-    "Year 2/SWE/Unit 5 - Systems Analysis.md",
     "Year 2/IAI/Book Specific",
     "Year 2/SWE"
   ]
