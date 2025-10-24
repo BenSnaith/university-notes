@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SMAC/Week 4 - User Authentication.md",
+                "file": "NLP/Week 4 - Language Modelling.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 4 - User Authentication"
+              "title": "Week 4 - Language Modelling"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "8c4ae4ecaa230faf",
@@ -194,20 +193,21 @@
   },
   "active": "0d226360e5b33681",
   "lastOpenFiles": [
-    "Pasted image 20251014104247.png",
-    "Pasted image 20251014104235.png",
-    "Pasted image 20251014104159.png",
-    "Pasted image 20251014104142.png",
-    "Pasted image 20251014103907.png",
-    "Pasted image 20251014103852.png",
-    "Pasted image 20251014103836.png",
-    "Pasted image 20251014103824.png",
-    "Pasted image 20251014103421.png",
-    "Pasted image 20251014103405.png",
-    "Pasted image 20251014103017.png",
-    "SMAC/Week 3 - Firewalls and Intrusion Prevention System.md",
-    "SMAC/Week 4 - User Authentication.md",
+    "Pasted image 20251023214922.png",
+    "Pasted image 20251023214403.png",
     "NLP/Week 3 - Vector Semantics and Embeddings.md",
+    "NLP/Week 4 - Language Modelling.md",
+    "_images/Pasted image 20251013225836.png",
+    "SMAC/Week 4 - User Authentication.md",
+    "_images/Pasted image 20251014104247.png",
+    "_images/Pasted image 20251014104235.png",
+    "_images/Pasted image 20251014104159.png",
+    "_images/Pasted image 20251014104142.png",
+    "_images/Pasted image 20251014103907.png",
+    "_images/Pasted image 20251014103852.png",
+    "_images/Pasted image 20251014103836.png",
+    "_images/Pasted image 20251014103824.png",
+    "SMAC/Week 3 - Firewalls and Intrusion Prevention System.md",
     "NLP/Week 1 - Introduction.md",
     "NLP/Week 2 - Data Pre-processing and text analytics.md",
     "SMAC/Week 2 - Intrusion Detection.md",
@@ -237,7 +237,6 @@
     "Year 2/IS/Lectures/Unit 1 - Introduction.md",
     "Year 2/SWE/What to work on for Exam.md",
     "Year 2/SWE/Unit 9 - Object-Oriented Detailed Design (coupling & cohesion).md",
-    "Year 2/SWE/Unit 7 & 8 - Software Design and Architecure.md",
     "Year 2/IAI/Book Specific",
     "Year 2/SWE"
   ]
