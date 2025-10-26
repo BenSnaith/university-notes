@@ -66,4 +66,19 @@ RFC 4949 defines access control as:
 ## Protection Domains
 
  - Set of objects together with access rights to those objects.
- - 
+ - More flexibility when associating capabilities with protection domains.
+ - In terms of the access matrix, a row defines a protection domain.
+ - Users can spawn processes with a subset of the access rights of the user.
+ - Association between a process and a domain can be static or dynamic.
+ - In user mode certain areas of memory are protected from use and certain instructions may not be executed.
+ - In kernel privileged instructions may be executed and protected areas of memory may be accessed.
+
+## UNIX File Access Control
+
+ - **UNIX files are administered using inodes (index nodes)**
+	 - Control structures with key informaiton needed for particular file.
+	 - Several file names may be associated with a single inode.
+	 - An active inode is associated with exactly one file.
+	 - File attributes, permissions and control information are sorted in the inode.
+	 - On the disk there is an inode table, or inode list, that contains the inodes of all the files in the file system.
+	 - When a file is opened its inode is brought into main memory and stored in a memory resident inode table.
