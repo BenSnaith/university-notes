@@ -82,3 +82,117 @@ RFC 4949 defines access control as:
 	 - File attributes, permissions and control information are sorted in the inode.
 	 - On the disk there is an inode table, or inode list, that contains the inodes of all the files in the file system.
 	 - When a file is opened its inode is brought into main memory and stored in a memory resident inode table.
+ - **Directories are structured in a hierarchical tree**
+	 - May contain files and/or other directories.
+	 - Contains file names plus pointers to associated inodes.
+
+## Features of UNIX File Access Control
+
+ - Unique user identification number (user ID).
+ - Member of primary group identified by a group ID.
+ - Belongs to a specific group.
+ - 12 protection bits.
+	 - Specify read, write, and execute permission for the owner of the file, members of the groups and all other users.
+ - The owner ID, group ID, and protection bits are part of the file's inode
+
+## Traditional UNIX File Access Control
+
+ - System temporarily uses rights of the file owner/group in addition to the real user's rights when making access control decisions.
+ - Enables privileged programs to access files/resources not generally accessible.
+ - **Sticky Bit**
+	 - When applied to a directory it specifies that only the owner of any file in the directory can rename, move, or delete that file.
+ - **Superuser**
+	 - Is exempt from usual access control restrictions.
+	 - Has system-wide access.
+
+## Access Control Lists (ACLs) in UNIX
+
+ - **Modern UNIX systems support ACLs**
+	 - FreeBSD, OpenBSD, Linux, Solaris.
+ - **FreeBSD**
+	 - `setfacl` command assigns a  list of UNIX user IDs and groups.
+	 - Any number of users and groups can be associated with a file.
+	 - Read, write, execute protection bits.
+	 - A file does not need to have an ACL.
+	 - Includes an additional protection bit that indicates whether the file as an extended ACL.
+ - **When a process requests access to a file system object two steps are performed**
+	 - Step 1 selects the most appropriate ACL.
+	 - Step 2 checks if the matching entry contains sufficient permissions.
+
+![[Pasted image 20251028094401.png]]
+
+![[Pasted image 20251028094423.png]]
+
+![[Pasted image 20251028094439.png]]
+
+![[Pasted image 20251028094455.png]]
+
+## Scope RBAC Models
+
+![[Pasted image 20251028094524.png]]
+
+![[Pasted image 20251028094540.png]]
+
+## Constraints - RBAC
+
+- Provide a means of adapting RBAC to the specifics of administrative and security policies of an organisation.
+- A defined relationships among roles or a condition related to roles
+- Types:
+
+![[Pasted image 20251028094701.png]]
+
+## Attribute-Based Access Control (ABAC)
+
+![[Pasted image 20251028094736.png]]
+
+## ABAC Model: Attributes
+
+![[Pasted image 20251028094801.png]]
+
+## ABAC
+
+ - Distinguishable because it controls access to objects by evaluating rules against the attributes of entities, operations, and the environment relevant to a request.
+ - Relies upon the evaluation of attributes of the subject attributes of the object, and a formal relationship of access control rule defining the allowable operations for subject-object attribute combinations in a given environment.
+ - Systems are capable of enforcing DAC, RBAC, and MAC concepts.
+ - Allows an unlimited number of attributes to be combined to satisfy any access control rule.
+
+![[Pasted image 20251028095206.png]]
+
+![[Pasted image 20251028095226.png]]
+
+## ABAC Policies
+
+A policy is a set of rules and relationships that govern allowable behaviour within an organisation, based on the privileges of subjects and how resources or objects are to be protected under which environment conditions.
+
+Typically written from the perspective of the object that needs protecting and the privileges available to subjects.
+
+Privileges represent the authorised behaviour of a subject and are defined by an authority and embodied in a policy.
+
+Other terms commonly used instead of privileges are: rights, authorisations, and entitlements.
+
+## Identity, Credential, and Access Management (ICAM)
+
+ - A comprehensive approach to managing and implementing digital identities, credentials, and access control.
+ - Developed by the U.S. government.
+ - Designed to:
+	 - Create trusted digital identity representations of individual and nonperson entities (NPEs)
+	 - Bind those identities to credentials that may serve as a proxy for the individual of NPE in access transactions
+		 - A credential is an object or data structure that authoritatively binds an identity to token possessed and controlled by a subscriber.
+	 - Use the credentials to provide authorised access to an agency's resources.
+
+![[Pasted image 20251028100039.png]]
+
+## Identity Management
+
+Concerned with assigning attributes to a digital identity and connecting that digital identity to an individual or NPE.
+
+Goal is to establish a trustworthy digital identity that is independent of a specific application or context.
+
+Most common approach to access control for applications and program sis to create a digital representation of an identity for the specific use of the application or program.
+
+Maintenance and protection of the identity itself treated as secondary to the mission associated with the application.
+
+## Credential Management
+
+ - The management
+
