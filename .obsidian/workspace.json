@@ -11,14 +11,12 @@
             "id": "c0bbc2c2be937af0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "SMAC/Week 5 - Access Control.md",
-                "mode": "source",
-                "source": false
+                "file": "_images/Pasted image 20251023214403.png"
               },
-              "icon": "lucide-file",
-              "title": "Week 5 - Access Control"
+              "icon": "lucide-image",
+              "title": "Pasted image 20251023214403"
             }
           }
         ]
@@ -78,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "8c4ae4ecaa230faf",
@@ -192,20 +189,20 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "c0bbc2c2be937af0",
+  "active": "bec57f9a5c6cc004",
   "lastOpenFiles": [
-    "Pasted image 20251028100039.png",
-    "Pasted image 20251028095226.png",
-    "Pasted image 20251028095206.png",
-    "Pasted image 20251028094801.png",
-    "Pasted image 20251028094736.png",
-    "Pasted image 20251028094701.png",
-    "Pasted image 20251028094540.png",
-    "Pasted image 20251028094524.png",
-    "Pasted image 20251028094455.png",
-    "Pasted image 20251028094439.png",
-    "Pasted image 20251028094423.png",
     "SMAC/Week 5 - Access Control.md",
+    "_images/Pasted image 20251029104331.png",
+    "_images/Pasted image 20251029104240.png",
+    "_images/Pasted image 20251029104224.png",
+    "_images/Pasted image 20251029104205.png",
+    "_images/Pasted image 20251029102935.png",
+    "NLP/Week 6 - Applications Text-Centric Processing Applications.md",
+    "_images/Pasted image 20251029095429.png",
+    "_images/Pasted image 20251029095405.png",
+    "_images/Pasted image 20251029094927.png",
+    "_images/Pasted image 20251029094858.png",
+    "_images/Pasted image 20251029094807.png",
     "SMAC/Week 4 - User Authentication.md",
     "NLP/Week 4 - Language Modelling.md",
     "NLP/Week 3 - Vector Semantics and Embeddings.md",
@@ -237,7 +234,6 @@
     "Year 2/IS/Lectures/Unit 2B - Cryptography Classification.md",
     "Year 2/IS/Lectures/Unit 2A - Cryptography and Ciphers.md",
     "Year 2/IS/Lectures/Unit 1 - Introduction.md",
-    "Year 2/SWE/What to work on for Exam.md",
     "Year 2/IAI/Book Specific",
     "Year 2/SWE"
   ]

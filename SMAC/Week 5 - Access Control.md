@@ -194,5 +194,70 @@ Maintenance and protection of the identity itself treated as secondary to the mi
 
 ## Credential Management
 
- - The management
+ - The management of the life cycle of the credential:
+	 - Examples of credentials are smart cards, private/public cryptographic keys, and digital certificates
+ - Encompasses five logical components:
+	 - An authorised individual sponsors an individual or entity for a credential to establish the need for the credential.
+	 - The sponsored individual enrolls for the credential
+		 - Process typically consists of identity proofing and the capture of biographic and biometric data.
+		 - This step may also involve incorporating authoritative attribute data, maintained by the identity management component.
+	 - A credential is produces
+		 - Depending on the credential type, production may involve encryption, the use of a digital signature, the production of a smart card or other functions.
+	 - The credential is issued to the indivudual or NPE.
+	 - A credential must be maintained over its life cycle
+		 - Might include revocation, reissurance/replacement, renrollment, expiration, personal idetification number reset, suspension, or reinstatement
 
+## Access Management
+
+ - Deals with the management and control of the ways entities are granted access to resources.
+ - Covers both logical and physical access.
+ - May be internal to a system or an external element.
+ - Purpose is to ensure that the proper identity verification is made when an individual attempts to access a security sensitive building, computer systems, or data.
+ - Three support elements are needs for an enterprise-wide access control facility.
+	 - Resource management.
+	 - Privilege management.
+	 - Policy management.
+
+## Three support elements are needed for an enterprise-wide access control facility
+
+ - **Resource management**
+	 - Concerned with defining rules for a resource that requires access control.
+	 - Rules would include credential requirements and what user attributes, resource attributes, and environment conditions are required for access of a given resource for a given function.
+ - **Privilege management**
+	 - Concerned with establishing and maintaining the entitlement or privilege attributes that comprise an individual's access profile.
+	 - These attributes represent features of an individual that can be used as the basis for determining access decisions to both physical and logical resources.
+	 - Privileges are considered attributes that can be linked to a digital identity.
+ - **Policy management**
+	 - Governs what is allowable and unallowable in an access transaction.
+
+## Identity Federation
+
+ - Term used to describe the technology, standards, policies, and processes that allow an organisation to trust digital identities, identity attributes, and credentials created and issued by another organisation.
+ - Addresses two questions:
+	 - How do you trust identities of individuals from external organisations who need access to your systems.
+	 - How do you vouch for identities of individuals in your organisation when they need to collaborate with external organisations.
+
+![[Pasted image 20251029102935.png]]
+
+## Open Identity Trust Framework
+
+ - **OpenID**
+	 - An open standard that allows sers to be authenticated by certain cooperating sites using a third party service.
+ - **OIDF**
+	 - OpenID Foundation is an international non-profit orgainsation of indivduals and companies committed to enabling, promoting, and protecting OpenID technologies.
+ - **ICF**
+	 - Information Card Foundation is a non-profity comminity of companies and indivuduals together to evolve the information card ecosystem.
+ - **OITF**
+	 - Open Identity Trust Framework is a standardised, open specification of a trust framework for identity and attribute exchange, developed jointly by OIDF and ICF.
+ - **OIX**
+	 - Open Identity Exchange Corporation is an independent, neutral, international provider of certification trust frameworks conforming to the OITF model.
+ - **AXN**
+	 - Attribute Exchange Network is an online Internet scale gateway for identity service providers and relying parties to efficiently access user asserted, permissioned, and verified online identity attributes in high volumes at affordable costs.
+
+![[Pasted image 20251029104205.png]]
+
+![[Pasted image 20251029104224.png]]
+
+![[Pasted image 20251029104240.png]]
+
+![[Pasted image 20251029104331.png]]
