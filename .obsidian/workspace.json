@@ -11,12 +11,14 @@
             "id": "c0bbc2c2be937af0",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "_images/Pasted image 20251023214403.png"
+                "file": "NLP/Week 5 - AI ML Methods and Tools.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20251023214403"
+              "icon": "lucide-file",
+              "title": "Week 5 - AI ML Methods and Tools"
             }
           }
         ]
@@ -76,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "8c4ae4ecaa230faf",
@@ -189,9 +192,13 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "bec57f9a5c6cc004",
+  "active": "c0bbc2c2be937af0",
   "lastOpenFiles": [
+    "SMAC/Week 1 - Overview of Security.md",
+    "NLP/Week 5 - AI ML Methods and Tools.md",
     "SMAC/Week 5 - Access Control.md",
+    "IP/Indivial project.md",
+    "_images/Pasted image 20251023214403.png",
     "_images/Pasted image 20251029104331.png",
     "_images/Pasted image 20251029104240.png",
     "_images/Pasted image 20251029104224.png",
@@ -202,7 +209,6 @@
     "_images/Pasted image 20251029095405.png",
     "_images/Pasted image 20251029094927.png",
     "_images/Pasted image 20251029094858.png",
-    "_images/Pasted image 20251029094807.png",
     "SMAC/Week 4 - User Authentication.md",
     "NLP/Week 4 - Language Modelling.md",
     "NLP/Week 3 - Vector Semantics and Embeddings.md",
@@ -210,8 +216,6 @@
     "NLP/Week 1 - Introduction.md",
     "NLP/Week 2 - Data Pre-processing and text analytics.md",
     "SMAC/Week 2 - Intrusion Detection.md",
-    "SMAC/Week 1 - Overview of Security.md",
-    "IP/Indivial project.md",
     "IP",
     "Year 1/IAD/Week 3 - JavaScript.md",
     "Year 1/CS/Comp Systems - Lecture 1 - Introduction - 29-09-23.md",
