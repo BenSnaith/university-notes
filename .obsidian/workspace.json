@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ede85e661aed88dd",
+        "id": "c8786ddfa92d7e5e",
         "type": "tabs",
         "children": [
           {
-            "id": "ff2c482ad138f7b3",
+            "id": "647fad2473f6f350",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLP/Week 6 - NLP Applications; Text-Centric Processing Applications.md",
+                "file": "NLP/Week 10 - Interactive Applications and Multi-modal Systems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 6 - NLP Applications; Text-Centric Processing Applications"
+              "title": "Week 10 - Interactive Applications and Multi-modal Systems"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "8c4ae4ecaa230faf",
@@ -176,7 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 347.5
+    "width": 310.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,24 +191,30 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "ff2c482ad138f7b3",
+  "active": "647fad2473f6f350",
   "lastOpenFiles": [
-    "Pasted image 20251202161132.png",
-    "Pasted image 20251202160956.png",
-    "Pasted image 20251202160927.png",
-    "Pasted image 20251202160902.png",
-    "Pasted image 20251202160846.png",
-    "Pasted image 20251202160830.png",
-    "Pasted image 20251202160807.png",
-    "Pasted image 20251202160743.png",
-    "Pasted image 20251202160558.png",
-    "Pasted image 20251202160400.png",
-    "Pasted image 20251202160322.png",
-    "NLP/Week 11.md",
-    "NLP/Week 10.md",
-    "NLP/Week 9.md",
-    "NLP/Week 8.md",
+    "Pasted image 20251202214649.png",
+    "Pasted image 20251202214538.png",
+    "NLP/Week 9 - NLP Applications; Speech Processing - Interactive and Multi-modal Systems.md",
+    "Pasted image 20251202212221.png",
+    "Pasted image 20251202212210.png",
+    "Pasted image 20251202212054.png",
+    "Pasted image 20251202212034.png",
+    "Pasted image 20251202211933.png",
+    "Pasted image 20251202211840.png",
+    "Pasted image 20251202211506.png",
+    "Pasted image 20251202210536.png",
+    "Pasted image 20251202210239.png",
+    "NLP/Week 8 - NLP Applications; Text-Centric Processing Applications Continued.md",
     "NLP/Week 6 - NLP Applications; Text-Centric Processing Applications.md",
+    "conflict-files-obsidian-git.md",
+    "Untitled.md",
+    "SMAC/Week 5 - Access Control.md",
+    "NLP/Week 6 - Applications Text-Centric Processing Applications.md",
+    "NLP/Week 5 - AI ML Methods and Tools.md",
+    "NLP/Week 4 - Language Modelling.md",
+    "NLP/Week 11.md",
+    "NLP/Week 10 - Interactive Applications and Multi-modal Systems.md",
     "NLP/Week 3 - Vector Semantics and Embeddings.md",
     "SMAC/Week 4 - User Authentication.md",
     "SMAC/Week 3 - Firewalls and Intrusion Prevention System.md",
@@ -229,12 +234,6 @@
     "Year 2/PLC/Unit 9 - Variables.md",
     "Year 2/PLC/Unit 4 - Primitive Types.md",
     "Year 2/PLC/Unit 2 - Types of PLs.md",
-    "Year 2/PLC/Unit 3 - Numeric Types.md",
-    "Year 2/IS/Lectures/Unit 2C - Key Exchange & Asymmetric Cryptosystems.md",
-    "Year 2/PLC/Unit 1 - Intro.md",
-    "Year 2/IS/Lectures/Unit 2B - Cryptography Classification.md",
-    "Year 2/IS/Lectures/Unit 2A - Cryptography and Ciphers.md",
-    "Year 2/IS/Lectures/Unit 1 - Introduction.md",
     "Year 2/IAI/Book Specific",
     "Year 2/SWE",
     "Year 2/IAI",
