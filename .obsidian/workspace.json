@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "8c4ae4ecaa230faf",
@@ -193,18 +194,18 @@
   },
   "active": "647fad2473f6f350",
   "lastOpenFiles": [
+    "Pasted image 20251203220232.png",
+    "Pasted image 20251203220215.png",
+    "Pasted image 20251203220200.png",
+    "Pasted image 20251203215018.png",
+    "Pasted image 20251203213632.png",
+    "Pasted image 20251203213621.png",
     "Pasted image 20251202214649.png",
     "Pasted image 20251202214538.png",
     "NLP/Week 9 - NLP Applications; Speech Processing - Interactive and Multi-modal Systems.md",
     "Pasted image 20251202212221.png",
     "Pasted image 20251202212210.png",
     "Pasted image 20251202212054.png",
-    "Pasted image 20251202212034.png",
-    "Pasted image 20251202211933.png",
-    "Pasted image 20251202211840.png",
-    "Pasted image 20251202211506.png",
-    "Pasted image 20251202210536.png",
-    "Pasted image 20251202210239.png",
     "NLP/Week 8 - NLP Applications; Text-Centric Processing Applications Continued.md",
     "NLP/Week 6 - NLP Applications; Text-Centric Processing Applications.md",
     "conflict-files-obsidian-git.md",
