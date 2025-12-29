@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "645520e47e688a17",
+        "id": "bf23f79e42e57bfe",
         "type": "tabs",
         "children": [
           {
-            "id": "4d5f9cb3eb383fc9",
+            "id": "f940b34f124e0192",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -187,10 +187,11 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "bec57f9a5c6cc004",
+  "active": "f940b34f124e0192",
   "lastOpenFiles": [
-    "NLP/Week 10 - Interactive Applications and Multi-modal Systems.md",
+    "SMAC/Week 12 - SEIM and SOC.md",
     "_images/Pasted image 20251203220232.png",
+    "NLP/Week 10 - Interactive Applications and Multi-modal Systems.md",
     "_images/Pasted image 20251203220215.png",
     "_images/Pasted image 20251203220200.png",
     "_images/Pasted image 20251203215018.png",
