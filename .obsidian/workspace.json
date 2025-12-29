@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c8786ddfa92d7e5e",
+        "id": "645520e47e688a17",
         "type": "tabs",
         "children": [
           {
-            "id": "647fad2473f6f350",
+            "id": "4d5f9cb3eb383fc9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NLP/Week 10 - Interactive Applications and Multi-modal Systems.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Week 10 - Interactive Applications and Multi-modal Systems"
+              "title": "New tab"
             }
           }
         ]
@@ -78,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "8c4ae4ecaa230faf",
@@ -192,20 +187,20 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "647fad2473f6f350",
+  "active": "bec57f9a5c6cc004",
   "lastOpenFiles": [
-    "Pasted image 20251203220232.png",
-    "Pasted image 20251203220215.png",
-    "Pasted image 20251203220200.png",
-    "Pasted image 20251203215018.png",
-    "Pasted image 20251203213632.png",
-    "Pasted image 20251203213621.png",
-    "Pasted image 20251202214649.png",
-    "Pasted image 20251202214538.png",
+    "NLP/Week 10 - Interactive Applications and Multi-modal Systems.md",
+    "_images/Pasted image 20251203220232.png",
+    "_images/Pasted image 20251203220215.png",
+    "_images/Pasted image 20251203220200.png",
+    "_images/Pasted image 20251203215018.png",
+    "_images/Pasted image 20251203213632.png",
+    "_images/Pasted image 20251203213621.png",
+    "_images/Pasted image 20251202214649.png",
+    "_images/Pasted image 20251202214538.png",
     "NLP/Week 9 - NLP Applications; Speech Processing - Interactive and Multi-modal Systems.md",
-    "Pasted image 20251202212221.png",
-    "Pasted image 20251202212210.png",
-    "Pasted image 20251202212054.png",
+    "_images/Pasted image 20251202212221.png",
+    "_images/Pasted image 20251202212210.png",
     "NLP/Week 8 - NLP Applications; Text-Centric Processing Applications Continued.md",
     "NLP/Week 6 - NLP Applications; Text-Centric Processing Applications.md",
     "conflict-files-obsidian-git.md",
@@ -215,7 +210,6 @@
     "NLP/Week 5 - AI ML Methods and Tools.md",
     "NLP/Week 4 - Language Modelling.md",
     "NLP/Week 11.md",
-    "NLP/Week 10 - Interactive Applications and Multi-modal Systems.md",
     "NLP/Week 3 - Vector Semantics and Embeddings.md",
     "SMAC/Week 4 - User Authentication.md",
     "SMAC/Week 3 - Firewalls and Intrusion Prevention System.md",
