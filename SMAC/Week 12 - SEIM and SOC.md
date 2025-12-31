@@ -145,3 +145,57 @@ These challenges fall into three broad categories:
 
 ### SOC Security
 
+Keeping the data and services within your SOC secure is essential because the information gathered by a SOC can be considered very sensitive and, as such, would make an attractive target for a threat actor. This information may include sensitive information about your organisation, personally identifiable information (PII), financial data, or even details of the security controls implemented across your IT estate.
+
+Additionally, if they had access to this information, malicious actors could benefit from being able to access or modify it, to hide their tracks, enhance their attacks or even evade any post-incident clean up operations.
+
+Some key considerations of SOC security are:
+
+ - **Sensitive Data**
+ - **Segregation**
+ - **Separation of duties**
+ - **Auditing**
+
+### SIEM vs. SOC
+
+Core components
+
+ - **SIEM**
+	 - Collects data from various sources (e.g., firewalls, servers, applications).
+	 - Correlates data to identify anomalies or suspicious patterns.
+	 - Generates alerts for potential security incidents.
+	 - Often includes dashboards and reporting for visibility into the security landscape.
+- **SOC**
+	- Consists of a team of security analysts and incident reporters.
+	- Uses multiple tools and technologies, including SIEM, intrusion detections systems (IDS), threat intelligence platforms, and more.
+	- Conducts threat hunting, forensic investigations, and responds to incidents.
+	- Communicates with stakeholders to provide insights and recommendations on security posture.
+
+ People vs Technology
+
+ - **SIEM**
+	 - Primarily a technology solution: it automates data collection, correlation, and alerting processes to reduce human efforts in identifying threats.
+ - **SOC**
+	 - Primarily a team of people with expertise in cybersecurity. While the SOC leverages SIEM and other tools, its success depends on skilled analysts who interpret data, make informed decisions, and respond to incidents.
+
+Operation and Workflow
+
+ - **SIEM**
+	 - Operates by gathering logs and events from across the organisation's infrastructure, normalising and correlating them to identify suspicious activity. Its output is often a series of alerts that require analysis or investigation.
+ - **SOC**
+	 - Operates by continuously monitoring for alerts, analysing threat data, investigating potential incidents, and executing incident response actions. SOC workflows involve triaging alerts, threat hunting, and sometimes conducting post-incident reviews to refine security controls.
+
+Automation and Human Intervention
+
+ - **SIEM**
+	 - Highly automated: it generates alert based on predefined rules and correlation logic. SIEM systems can help reduce the volume of noise by filtering benign events from suspicious ones but may still produce false positives that require further investigation.
+ - **SOC**
+	 - Relies on human intervention, especially for complex incidents. Analysts in a SOC use their expertise to investigate SIEM alerts, validate genuine threats, and take appropriate actions. Some SOCs also use automation (e.g., SOAR) to streamline responses, but human judgement is crucial.
+
+Detection vs. Response
+
+ - **SIEM**
+	 - Focuses on **detection** of potential security incidents by monitoring and analysing event data in real-time. It identities possible threats but does not directly respond to them.
+ - **SOC**
+	 - Encompasses both **detection** and **response**. The SOC noy only detects threat through tools like SIEM but also takes active steps to mitigate and contain incidents.
+
