@@ -153,6 +153,11 @@ Purpose: To organise and document information found during the reconnaissance, n
 
  -  A penetration test is a test evaluating the strengths of all security controls on the computer system.
  - A vulnerability scan is an automated process that focuses on finding known vulnerabilities without exploiting them.
- - A penetration test uses the same methods an attacker might use to exploit systems. Whereas a vulnerability scan can be automated, a penetration test requires a certain level of expertise and human interaction. Penetration testing can be performed across the whole organisation looking at the risk form a human eleemtn to your applications 
+ - A penetration test uses the same methods an attacker might use to exploit systems. Whereas a vulnerability scan can be automated, a penetration test requires a certain level of expertise and human interaction. Penetration testing can be performed across the whole organisation looking at the risk form a human element to your applications and infrastructure depending on where personal data is held or accessed.
+ - Because vulnerability scans can only identify known vulnerabilities, they cannot find zero-day exploits.
+ - A good penetration tester can link multiple vulnerabilities to be able to compromise the system, analyse the vulnerability scans to exploit weakness and create and use specialist tools during testing.
+ - Vulnerability scan is predictable in terns of when it is taking place is known to the employee. Penetration testing may or may not be predictable.
+
+
 
 
