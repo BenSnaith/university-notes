@@ -190,3 +190,32 @@ All other scheduling is pre-emptive - implications for data sharing between thre
 	 - 20% to background in FCFS.
 
 ![[Pasted image 20260128231349.png]]
+
+### Multilevel Feedback Queue
+
+ - A process can move between the various queues.
+ - Multilevel-feedback-queue scheduler defiend by the following parameters:
+	 - Number of queues.
+	 - Scheduling algorithms for each queue.
+	 - Method used to determine when to upgrade a process.
+	 - Method used to determine when to demote a process.
+	 - Method used to determine which queue a process will enter when that process needs service.
+ - Aging can be implemented using multilevel feedback queue.
+
+### Example of a Multilevel Feedback Queue
+
+ - Three queues:
+	 - $Q_0$ - RR with time quantum of 8 milliseconds.
+	 - $Q_1$ - RR with time quantum of 16 milliseconds.
+	 - $Q_2$ - FCFS.
+- Scheduling:
+	- A new job enters queue $Q_0$ which is served FCFS. When it gains CPU, job receives 8 milliseconds. If it does not finish in 8 milliseconds, job is moved to queue $Q_1$.
+	- At $Q_1$ job is again served FCFS and receives 16 additional milliseconds. If it still does not complete, it is preempted and moved to queue $Q_2$.
+
+### Multilevel Feedback Queue
+
+ - Pros:
+	 - The most general CPU scheduling algorithm, can be configured to match specific system under design.
+ - Cons:
+	 - The most complex algorithm.
+	 - Defining the best scheduler requires some means to select values for all parameters.
